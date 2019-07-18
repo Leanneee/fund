@@ -9,9 +9,9 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	>
 <channel>
 	<title>
-	Comments for Refundo	</title>
-	<atom:link href="https://refundo.com/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://refundo.com</link>
+	Comments for Iturbi	</title>
+	<atom:link href="https://iturbi.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://iturbi.net</link>
 	<description>Bank Products Made Easy</description>
 	<lastBuildDate>2019-07-17 20:07:19</lastBuildDate>
 	<sy:updatePeriod>
