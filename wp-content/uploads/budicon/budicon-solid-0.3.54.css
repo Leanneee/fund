@@ -1,0 +1,4227 @@
+/*!
+ * Budicon v2.0.1 (https://budicon.co)
+ * Author: Budi Harto Tanrim (https://dribbble.com/buditanrim)
+ * License: https://budicon.co/license
+ */
+
+@font-face {
+  font-family: 'budicon-classic-solid';
+  src:  url('budicon-classic-solid-qrjvas2.eot');
+  src:  url('budicon-classic-solid-qrjvas2.eot#iefix') format('embedded-opentype'),
+    url('budicon-classic-solid-qrjvas2.ttf') format('truetype'),
+    url('budicon-classic-solid-qrjvas2.woff') format('woff'),
+    url('budicon-classic-solid-qrjvas2.svg#budicon-classic-solid') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="budicon-solid-"],
+[class*=" budicon-solid-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'budicon-classic-solid' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.budicon-solid-air-craft:before {
+  content: "\e900";
+}
+.budicon-solid-airplane:before {
+  content: "\e901";
+}
+.budicon-solid-arrival:before {
+  content: "\e902";
+}
+.budicon-solid-bag-trolley:before {
+  content: "\e903";
+}
+.budicon-solid-beach:before {
+  content: "\e904";
+}
+.budicon-solid-bicycle:before {
+  content: "\e905";
+}
+.budicon-solid-big-motorcycles:before {
+  content: "\e906";
+}
+.budicon-solid-bus-front:before {
+  content: "\e907";
+}
+.budicon-solid-bus:before {
+  content: "\e908";
+}
+.budicon-solid-cabin-bag:before {
+  content: "\e909";
+}
+.budicon-solid-cable-car:before {
+  content: "\e90a";
+}
+.budicon-solid-camping:before {
+  content: "\e90b";
+}
+.budicon-solid-car-front:before {
+  content: "\e90c";
+}
+.budicon-solid-compass-a:before {
+  content: "\e90d";
+}
+.budicon-solid-compass-b:before {
+  content: "\e90e";
+}
+.budicon-solid-compass:before {
+  content: "\e90f";
+}
+.budicon-solid-cruise:before {
+  content: "\e910";
+}
+.budicon-solid-departure:before {
+  content: "\e911";
+}
+.budicon-solid-direction:before {
+  content: "\e912";
+}
+.budicon-solid-electric-cord:before {
+  content: "\e913";
+}
+.budicon-solid-electric-station:before {
+  content: "\e914";
+}
+.budicon-solid-first-aid:before {
+  content: "\e915";
+}
+.budicon-solid-fishing-boat:before {
+  content: "\e916";
+}
+.budicon-solid-footstep:before {
+  content: "\e917";
+}
+.budicon-solid-forest:before {
+  content: "\e918";
+}
+.budicon-solid-fuel-tank:before {
+  content: "\e919";
+}
+.budicon-solid-gas-station:before {
+  content: "\e91a";
+}
+.budicon-solid-globe:before {
+  content: "\e91b";
+}
+.budicon-solid-helicopter:before {
+  content: "\e91c";
+}
+.budicon-solid-hiking:before {
+  content: "\e91d";
+}
+.budicon-solid-hotel:before {
+  content: "\e91e";
+}
+.budicon-solid-international-travel:before {
+  content: "\e91f";
+}
+.budicon-solid-iron:before {
+  content: "\e920";
+}
+.budicon-solid-jet-ski:before {
+  content: "\e921";
+}
+.budicon-solid-location-area:before {
+  content: "\e922";
+}
+.budicon-solid-location-finished:before {
+  content: "\e923";
+}
+.budicon-solid-location-pin-love:before {
+  content: "\e924";
+}
+.budicon-solid-location-pin-minus:before {
+  content: "\e925";
+}
+.budicon-solid-location-pin-plus:before {
+  content: "\e926";
+}
+.budicon-solid-location-pin-tick:before {
+  content: "\e927";
+}
+.budicon-solid-location-pin:before {
+  content: "\e928";
+}
+.budicon-solid-location:before {
+  content: "\e929";
+}
+.budicon-solid-luggage:before {
+  content: "\e92a";
+}
+.budicon-solid-map:before {
+  content: "\e92b";
+}
+.budicon-solid-motorcycle:before {
+  content: "\e92c";
+}
+.budicon-solid-multiple-destinations:before {
+  content: "\e92d";
+}
+.budicon-solid-navigation:before {
+  content: "\e92e";
+}
+.budicon-solid-parking-meter:before {
+  content: "\e92f";
+}
+.budicon-solid-passport:before {
+  content: "\e930";
+}
+.budicon-solid-plugs-a:before {
+  content: "\e931";
+}
+.budicon-solid-plugs:before {
+  content: "\e932";
+}
+.budicon-solid-pocket-knife:before {
+  content: "\e933";
+}
+.budicon-solid-power-cord:before {
+  content: "\e934";
+}
+.budicon-solid-propeller-airplane:before {
+  content: "\e935";
+}
+.budicon-solid-sailing-boat:before {
+  content: "\e936";
+}
+.budicon-solid-sandals:before {
+  content: "\e937";
+}
+.budicon-solid-sedan-front:before {
+  content: "\e938";
+}
+.budicon-solid-sedan:before {
+  content: "\e939";
+}
+.budicon-solid-self-navigation:before {
+  content: "\e93a";
+}
+.budicon-solid-sightseeing:before {
+  content: "\e93b";
+}
+.budicon-solid-small-bike:before {
+  content: "\e93c";
+}
+.budicon-solid-sun:before {
+  content: "\e93d";
+}
+.budicon-solid-sunblock:before {
+  content: "\e93e";
+}
+.budicon-solid-surf:before {
+  content: "\e93f";
+}
+.budicon-solid-taxi:before {
+  content: "\e940";
+}
+.budicon-solid-tracks:before {
+  content: "\e941";
+}
+.budicon-solid-traffic-light:before {
+  content: "\e942";
+}
+.budicon-solid-train-front:before {
+  content: "\e943";
+}
+.budicon-solid-travel-bag:before {
+  content: "\e944";
+}
+.budicon-solid-travel-case:before {
+  content: "\e945";
+}
+.budicon-solid-travel-ticket:before {
+  content: "\e946";
+}
+.budicon-solid-van:before {
+  content: "\e947";
+}
+.budicon-solid-vespa:before {
+  content: "\e948";
+}
+.budicon-solid-vintage-car:before {
+  content: "\e949";
+}
+.budicon-solid-bottombar:before {
+  content: "\e94a";
+}
+.budicon-solid-card-stack-view:before {
+  content: "\e94b";
+}
+.budicon-solid-collapse-bottom:before {
+  content: "\e94c";
+}
+.budicon-solid-collapse-left:before {
+  content: "\e94d";
+}
+.budicon-solid-collapse-right:before {
+  content: "\e94e";
+}
+.budicon-solid-collapse-top:before {
+  content: "\e94f";
+}
+.budicon-solid-feature-block:before {
+  content: "\e950";
+}
+.budicon-solid-inside-element:before {
+  content: "\e951";
+}
+.budicon-solid-layout-third-vertical:before {
+  content: "\e952";
+}
+.budicon-solid-layout-third-view:before {
+  content: "\e953";
+}
+.budicon-solid-layout-two-view:before {
+  content: "\e954";
+}
+.budicon-solid-one-third:before {
+  content: "\e955";
+}
+.budicon-solid-sidebar-left-content:before {
+  content: "\e956";
+}
+.budicon-solid-sidebar-left:before {
+  content: "\e957";
+}
+.budicon-solid-sidebar-right-content:before {
+  content: "\e958";
+}
+.budicon-solid-sidebar-right:before {
+  content: "\e959";
+}
+.budicon-solid-third-one:before {
+  content: "\e95a";
+}
+.budicon-solid-topbar:before {
+  content: "\e95b";
+}
+.budicon-solid-two-grids:before {
+  content: "\e95c";
+}
+.budicon-solid-two-thirds:before {
+  content: "\e95d";
+}
+.budicon-solid-apple:before {
+  content: "\e95e";
+}
+.budicon-solid-avocado:before {
+  content: "\e95f";
+}
+.budicon-solid-bacon:before {
+  content: "\e960";
+}
+.budicon-solid-basil:before {
+  content: "\e961";
+}
+.budicon-solid-beer:before {
+  content: "\e962";
+}
+.budicon-solid-bottle-water:before {
+  content: "\e963";
+}
+.budicon-solid-bowl:before {
+  content: "\e964";
+}
+.budicon-solid-bubble-tea:before {
+  content: "\e965";
+}
+.budicon-solid-carrot:before {
+  content: "\e966";
+}
+.budicon-solid-cheers:before {
+  content: "\e967";
+}
+.budicon-solid-cherry:before {
+  content: "\e968";
+}
+.budicon-solid-chinese-food-a:before {
+  content: "\e969";
+}
+.budicon-solid-chinese-food:before {
+  content: "\e96a";
+}
+.budicon-solid-cocktail:before {
+  content: "\e96b";
+}
+.budicon-solid-coffee-cup:before {
+  content: "\e96c";
+}
+.budicon-solid-corn:before {
+  content: "\e96d";
+}
+.budicon-solid-croissant:before {
+  content: "\e96e";
+}
+.budicon-solid-cupcake:before {
+  content: "\e96f";
+}
+.budicon-solid-donut:before {
+  content: "\e970";
+}
+.budicon-solid-door-board:before {
+  content: "\e971";
+}
+.budicon-solid-egg:before {
+  content: "\e972";
+}
+.budicon-solid-fork-knife:before {
+  content: "\e973";
+}
+.budicon-solid-fork-spoon:before {
+  content: "\e974";
+}
+.budicon-solid-french-fries:before {
+  content: "\e975";
+}
+.budicon-solid-grapes:before {
+  content: "\e976";
+}
+.budicon-solid-hamburger:before {
+  content: "\e977";
+}
+.budicon-solid-honey:before {
+  content: "\e978";
+}
+.budicon-solid-hot-drink:before {
+  content: "\e979";
+}
+.budicon-solid-hot-tea:before {
+  content: "\e97a";
+}
+.budicon-solid-hotdog:before {
+  content: "\e97b";
+}
+.budicon-solid-ice-cream-cone:before {
+  content: "\e97c";
+}
+.budicon-solid-ice-cream-stick:before {
+  content: "\e97d";
+}
+.budicon-solid-jam:before {
+  content: "\e97e";
+}
+.budicon-solid-ketchup-bottle:before {
+  content: "\e97f";
+}
+.budicon-solid-lemon:before {
+  content: "\e980";
+}
+.budicon-solid-lettuce:before {
+  content: "\e981";
+}
+.budicon-solid-mango:before {
+  content: "\e982";
+}
+.budicon-solid-mayonnaise:before {
+  content: "\e983";
+}
+.budicon-solid-meal:before {
+  content: "\e984";
+}
+.budicon-solid-milk-bottle:before {
+  content: "\e985";
+}
+.budicon-solid-milk:before {
+  content: "\e986";
+}
+.budicon-solid-noodle-bowl:before {
+  content: "\e987";
+}
+.budicon-solid-onigiri:before {
+  content: "\e988";
+}
+.budicon-solid-onion:before {
+  content: "\e989";
+}
+.budicon-solid-organic-drink:before {
+  content: "\e98a";
+}
+.budicon-solid-pepper:before {
+  content: "\e98b";
+}
+.budicon-solid-pineapple:before {
+  content: "\e98c";
+}
+.budicon-solid-pizza:before {
+  content: "\e98d";
+}
+.budicon-solid-pumpkin:before {
+  content: "\e98e";
+}
+.budicon-solid-ramen:before {
+  content: "\e98f";
+}
+.budicon-solid-salt:before {
+  content: "\e990";
+}
+.budicon-solid-sandwich:before {
+  content: "\e991";
+}
+.budicon-solid-sauce-tube:before {
+  content: "\e992";
+}
+.budicon-solid-sauce:before {
+  content: "\e993";
+}
+.budicon-solid-soda-can:before {
+  content: "\e994";
+}
+.budicon-solid-soup-bowl:before {
+  content: "\e995";
+}
+.budicon-solid-soy-sauce:before {
+  content: "\e996";
+}
+.budicon-solid-steak:before {
+  content: "\e997";
+}
+.budicon-solid-strawberry:before {
+  content: "\e998";
+}
+.budicon-solid-sushi:before {
+  content: "\e999";
+}
+.budicon-solid-taco:before {
+  content: "\e99a";
+}
+.budicon-solid-tea-cup:before {
+  content: "\e99b";
+}
+.budicon-solid-toast:before {
+  content: "\e99c";
+}
+.budicon-solid-turkey:before {
+  content: "\e99d";
+}
+.budicon-solid-utensil:before {
+  content: "\e99e";
+}
+.budicon-solid-vegetarian:before {
+  content: "\e99f";
+}
+.budicon-solid-watermelon:before {
+  content: "\e9a0";
+}
+.budicon-solid-white-bread:before {
+  content: "\e9a1";
+}
+.budicon-solid-wine-bottle:before {
+  content: "\e9a2";
+}
+.budicon-solid-wine-glass:before {
+  content: "\e9a3";
+}
+.budicon-solid-wine:before {
+  content: "\e9a4";
+}
+.budicon-solid-bottom-aligned:before {
+  content: "\e9a5";
+}
+.budicon-solid-center-aligned:before {
+  content: "\e9a6";
+}
+.budicon-solid-clipboard:before {
+  content: "\e9a7";
+}
+.budicon-solid-design-compass:before {
+  content: "\e9a8";
+}
+.budicon-solid-doodle:before {
+  content: "\e9a9";
+}
+.budicon-solid-eraser:before {
+  content: "\e9aa";
+}
+.budicon-solid-horizontal-distribute:before {
+  content: "\e9ab";
+}
+.budicon-solid-left-aligned:before {
+  content: "\e9ac";
+}
+.budicon-solid-middle-aligned:before {
+  content: "\e9ad";
+}
+.budicon-solid-prototype:before {
+  content: "\e9ae";
+}
+.budicon-solid-right-aligned:before {
+  content: "\e9af";
+}
+.budicon-solid-ruler:before {
+  content: "\e9b0";
+}
+.budicon-solid-top-aligned:before {
+  content: "\e9b1";
+}
+.budicon-solid-vector-clipboard:before {
+  content: "\e9b2";
+}
+.budicon-solid-vector-editing:before {
+  content: "\e9b3";
+}
+.budicon-solid-vertical-distribute:before {
+  content: "\e9b4";
+}
+.budicon-solid-attachment-file:before {
+  content: "\e9b5";
+}
+.budicon-solid-attachment:before {
+  content: "\e9b6";
+}
+.budicon-solid-book:before {
+  content: "\e9b7";
+}
+.budicon-solid-booklet:before {
+  content: "\e9b8";
+}
+.budicon-solid-bookmark-a:before {
+  content: "\e9b9";
+}
+.budicon-solid-bookmark:before {
+  content: "\e9ba";
+}
+.budicon-solid-box-file-alert:before {
+  content: "\e9bb";
+}
+.budicon-solid-box-file-block:before {
+  content: "\e9bc";
+}
+.budicon-solid-box-file-cross:before {
+  content: "\e9bd";
+}
+.budicon-solid-box-file-download:before {
+  content: "\e9be";
+}
+.budicon-solid-box-file-favorite:before {
+  content: "\e9bf";
+}
+.budicon-solid-box-file-heart:before {
+  content: "\e9c0";
+}
+.budicon-solid-box-file-index:before {
+  content: "\e9c1";
+}
+.budicon-solid-box-file-information:before {
+  content: "\e9c2";
+}
+.budicon-solid-box-file-lock:before {
+  content: "\e9c3";
+}
+.budicon-solid-box-file-minus:before {
+  content: "\e9c4";
+}
+.budicon-solid-box-file-plus:before {
+  content: "\e9c5";
+}
+.budicon-solid-box-file-search:before {
+  content: "\e9c6";
+}
+.budicon-solid-box-file-tick:before {
+  content: "\e9c7";
+}
+.budicon-solid-box-file-upload:before {
+  content: "\e9c8";
+}
+.budicon-solid-box-file:before {
+  content: "\e9c9";
+}
+.budicon-solid-compressed-file:before {
+  content: "\e9ca";
+}
+.budicon-solid-doc-attachment:before {
+  content: "\e9cb";
+}
+.budicon-solid-doc-marker:before {
+  content: "\e9cc";
+}
+.budicon-solid-file-alert:before {
+  content: "\e9cd";
+}
+.budicon-solid-file-blank:before {
+  content: "\e9ce";
+}
+.budicon-solid-file-block:before {
+  content: "\e9cf";
+}
+.budicon-solid-file-cross:before {
+  content: "\e9d0";
+}
+.budicon-solid-file-download:before {
+  content: "\e9d1";
+}
+.budicon-solid-file-favorite:before {
+  content: "\e9d2";
+}
+.budicon-solid-file-heart:before {
+  content: "\e9d3";
+}
+.budicon-solid-file-information:before {
+  content: "\e9d4";
+}
+.budicon-solid-file-lock:before {
+  content: "\e9d5";
+}
+.budicon-solid-file-minus:before {
+  content: "\e9d6";
+}
+.budicon-solid-file-plus:before {
+  content: "\e9d7";
+}
+.budicon-solid-file-question:before {
+  content: "\e9d8";
+}
+.budicon-solid-file-tick:before {
+  content: "\e9d9";
+}
+.budicon-solid-file-upload:before {
+  content: "\e9da";
+}
+.budicon-solid-file:before {
+  content: "\e9db";
+}
+.budicon-solid-files-alert:before {
+  content: "\e9dc";
+}
+.budicon-solid-files-block:before {
+  content: "\e9dd";
+}
+.budicon-solid-files-cross:before {
+  content: "\e9de";
+}
+.budicon-solid-files-download:before {
+  content: "\e9df";
+}
+.budicon-solid-files-favorite:before {
+  content: "\e9e0";
+}
+.budicon-solid-files-heart:before {
+  content: "\e9e1";
+}
+.budicon-solid-files-information:before {
+  content: "\e9e2";
+}
+.budicon-solid-files-lock:before {
+  content: "\e9e3";
+}
+.budicon-solid-files-minus:before {
+  content: "\e9e4";
+}
+.budicon-solid-files-plus:before {
+  content: "\e9e5";
+}
+.budicon-solid-files-search:before {
+  content: "\e9e6";
+}
+.budicon-solid-files-tick:before {
+  content: "\e9e7";
+}
+.budicon-solid-files-upload:before {
+  content: "\e9e8";
+}
+.budicon-solid-folded-page:before {
+  content: "\e9e9";
+}
+.budicon-solid-headline:before {
+  content: "\e9ea";
+}
+.budicon-solid-image-file:before {
+  content: "\e9eb";
+}
+.budicon-solid-landscape-page:before {
+  content: "\e9ec";
+}
+.budicon-solid-legal-file:before {
+  content: "\e9ed";
+}
+.budicon-solid-newspaper:before {
+  content: "\e9ee";
+}
+.budicon-solid-notepad:before {
+  content: "\e9ef";
+}
+.budicon-solid-opened-book:before {
+  content: "\e9f0";
+}
+.budicon-solid-project-file-alert:before {
+  content: "\e9f1";
+}
+.budicon-solid-project-file-block:before {
+  content: "\e9f2";
+}
+.budicon-solid-project-file-cross:before {
+  content: "\e9f3";
+}
+.budicon-solid-project-file-download:before {
+  content: "\e9f4";
+}
+.budicon-solid-project-file-favorite:before {
+  content: "\e9f5";
+}
+.budicon-solid-project-file-heart:before {
+  content: "\e9f6";
+}
+.budicon-solid-project-file-information:before {
+  content: "\e9f7";
+}
+.budicon-solid-project-file-lock:before {
+  content: "\e9f8";
+}
+.budicon-solid-project-file-minus:before {
+  content: "\e9f9";
+}
+.budicon-solid-project-file-plus:before {
+  content: "\e9fa";
+}
+.budicon-solid-project-file-search:before {
+  content: "\e9fb";
+}
+.budicon-solid-project-file-tick:before {
+  content: "\e9fc";
+}
+.budicon-solid-project-file-upload:before {
+  content: "\e9fd";
+}
+.budicon-solid-project-file:before {
+  content: "\e9fe";
+}
+.budicon-solid-scan-page:before {
+  content: "\e9ff";
+}
+.budicon-solid-scheduled-box-file:before {
+  content: "\ea00";
+}
+.budicon-solid-scheduled-file:before {
+  content: "\ea01";
+}
+.budicon-solid-scheduled-files:before {
+  content: "\ea02";
+}
+.budicon-solid-scheduled-project-file:before {
+  content: "\ea03";
+}
+.budicon-solid-search-file:before {
+  content: "\ea04";
+}
+.budicon-solid-shared-box-file:before {
+  content: "\ea05";
+}
+.budicon-solid-shared-file:before {
+  content: "\ea06";
+}
+.budicon-solid-shared-files:before {
+  content: "\ea07";
+}
+.budicon-solid-shared-project-file:before {
+  content: "\ea08";
+}
+.budicon-solid-single-page:before {
+  content: "\ea09";
+}
+.budicon-solid-two-page:before {
+  content: "\ea0a";
+}
+.budicon-solid-zip-file:before {
+  content: "\ea0b";
+}
+.budicon-solid-aperture:before {
+  content: "\ea0c";
+}
+.budicon-solid-area-focus:before {
+  content: "\ea0d";
+}
+.budicon-solid-brightness-a:before {
+  content: "\ea0e";
+}
+.budicon-solid-brightness:before {
+  content: "\ea0f";
+}
+.budicon-solid-camera-scan:before {
+  content: "\ea10";
+}
+.budicon-solid-camera-timer:before {
+  content: "\ea11";
+}
+.budicon-solid-camera-wifi:before {
+  content: "\ea12";
+}
+.budicon-solid-camera:before {
+  content: "\ea13";
+}
+.budicon-solid-cityscape:before {
+  content: "\ea14";
+}
+.budicon-solid-crop:before {
+  content: "\ea15";
+}
+.budicon-solid-dslr-menu:before {
+  content: "\ea16";
+}
+.budicon-solid-exposure-compensation:before {
+  content: "\ea17";
+}
+.budicon-solid-exposure:before {
+  content: "\ea18";
+}
+.budicon-solid-film-clip:before {
+  content: "\ea19";
+}
+.budicon-solid-flashlight:before {
+  content: "\ea1a";
+}
+.budicon-solid-flip-horizontal:before {
+  content: "\ea1b";
+}
+.budicon-solid-flip-vertical:before {
+  content: "\ea1c";
+}
+.budicon-solid-focus-point:before {
+  content: "\ea1d";
+}
+.budicon-solid-grid:before {
+  content: "\ea1e";
+}
+.budicon-solid-half-exposure:before {
+  content: "\ea1f";
+}
+.budicon-solid-landscape:before {
+  content: "\ea20";
+}
+.budicon-solid-live-video:before {
+  content: "\ea21";
+}
+.budicon-solid-pocket-camera:before {
+  content: "\ea22";
+}
+.budicon-solid-polaroid-stack:before {
+  content: "\ea23";
+}
+.budicon-solid-polaroid:before {
+  content: "\ea24";
+}
+.budicon-solid-red-eye-detection:before {
+  content: "\ea25";
+}
+.budicon-solid-roll-film:before {
+  content: "\ea26";
+}
+.budicon-solid-rotate-camera:before {
+  content: "\ea27";
+}
+.budicon-solid-rotate-image:before {
+  content: "\ea28";
+}
+.budicon-solid-sharpen:before {
+  content: "\ea29";
+}
+.budicon-solid-single-point-focus:before {
+  content: "\ea2a";
+}
+.budicon-solid-slideshow-photo:before {
+  content: "\ea2b";
+}
+.budicon-solid-smile-detection:before {
+  content: "\ea2c";
+}
+.budicon-solid-video-cam-a:before {
+  content: "\ea2d";
+}
+.budicon-solid-video-cam:before {
+  content: "\ea2e";
+}
+.budicon-solid-video-recorder:before {
+  content: "\ea2f";
+}
+.budicon-solid-vintage-camera:before {
+  content: "\ea30";
+}
+.budicon-solid-all-directions:before {
+  content: "\ea31";
+}
+.budicon-solid-arrow-bottom-a:before {
+  content: "\ea32";
+}
+.budicon-solid-arrow-bottom-circle:before {
+  content: "\ea33";
+}
+.budicon-solid-arrow-bottom-left-a:before {
+  content: "\ea34";
+}
+.budicon-solid-arrow-bottom-left-circle:before {
+  content: "\ea35";
+}
+.budicon-solid-arrow-bottom-left:before {
+  content: "\ea36";
+}
+.budicon-solid-arrow-bottom-right-a:before {
+  content: "\ea37";
+}
+.budicon-solid-arrow-bottom-right-circle:before {
+  content: "\ea38";
+}
+.budicon-solid-arrow-bottom-right:before {
+  content: "\ea39";
+}
+.budicon-solid-arrow-bottom:before {
+  content: "\ea3a";
+}
+.budicon-solid-arrow-left-a:before {
+  content: "\ea3b";
+}
+.budicon-solid-arrow-left-circle:before {
+  content: "\ea3c";
+}
+.budicon-solid-arrow-left-right-a:before {
+  content: "\ea3d";
+}
+.budicon-solid-arrow-left-right-circle:before {
+  content: "\ea3e";
+}
+.budicon-solid-arrow-left-right:before {
+  content: "\ea3f";
+}
+.budicon-solid-arrow-left:before {
+  content: "\ea40";
+}
+.budicon-solid-arrow-right-a:before {
+  content: "\ea41";
+}
+.budicon-solid-arrow-right-circle:before {
+  content: "\ea42";
+}
+.budicon-solid-arrow-right:before {
+  content: "\ea43";
+}
+.budicon-solid-arrow-top-a:before {
+  content: "\ea44";
+}
+.budicon-solid-arrow-top-circle:before {
+  content: "\ea45";
+}
+.budicon-solid-arrow-top-left-a:before {
+  content: "\ea46";
+}
+.budicon-solid-arrow-top-left-circle:before {
+  content: "\ea47";
+}
+.budicon-solid-arrow-top-left:before {
+  content: "\ea48";
+}
+.budicon-solid-arrow-top-right-a:before {
+  content: "\ea49";
+}
+.budicon-solid-arrow-top-right-circle:before {
+  content: "\ea4a";
+}
+.budicon-solid-arrow-top-right:before {
+  content: "\ea4b";
+}
+.budicon-solid-arrow-top:before {
+  content: "\ea4c";
+}
+.budicon-solid-arrow-turn-bottom:before {
+  content: "\ea4d";
+}
+.budicon-solid-arrow-turn-left:before {
+  content: "\ea4e";
+}
+.budicon-solid-arrow-turn-right:before {
+  content: "\ea4f";
+}
+.budicon-solid-arrow-turn-up:before {
+  content: "\ea50";
+}
+.budicon-solid-arrow-up-down-a:before {
+  content: "\ea51";
+}
+.budicon-solid-arrow-up-down-circle:before {
+  content: "\ea52";
+}
+.budicon-solid-arrow-up-down:before {
+  content: "\ea53";
+}
+.budicon-solid-backline-arrow:before {
+  content: "\ea54";
+}
+.budicon-solid-bring-list-down:before {
+  content: "\ea55";
+}
+.budicon-solid-bring-list-up:before {
+  content: "\ea56";
+}
+.budicon-solid-chevron-bottom-a:before {
+  content: "\ea57";
+}
+.budicon-solid-chevron-bottom-circle_1:before {
+  content: "\ea58";
+}
+.budicon-solid-chevron-bottom-circle:before {
+  content: "\ea59";
+}
+.budicon-solid-chevron-bottom:before {
+  content: "\ea5a";
+}
+.budicon-solid-chevron-left-a:before {
+  content: "\ea5b";
+}
+.budicon-solid-chevron-left-circle_1:before {
+  content: "\ea5c";
+}
+.budicon-solid-chevron-left-circle:before {
+  content: "\ea5d";
+}
+.budicon-solid-chevron-left:before {
+  content: "\ea5e";
+}
+.budicon-solid-chevron-right-a:before {
+  content: "\ea5f";
+}
+.budicon-solid-chevron-right-circle_1:before {
+  content: "\ea60";
+}
+.budicon-solid-chevron-right-circle:before {
+  content: "\ea61";
+}
+.budicon-solid-chevron-right:before {
+  content: "\ea62";
+}
+.budicon-solid-chevron-top-a:before {
+  content: "\ea63";
+}
+.budicon-solid-chevron-top-circle_1:before {
+  content: "\ea64";
+}
+.budicon-solid-chevron-top-circle:before {
+  content: "\ea65";
+}
+.budicon-solid-chevron-top:before {
+  content: "\ea66";
+}
+.budicon-solid-console-arrow:before {
+  content: "\ea67";
+}
+.budicon-solid-full-loop-arrow:before {
+  content: "\ea68";
+}
+.budicon-solid-intersected-arrow:before {
+  content: "\ea69";
+}
+.budicon-solid-inward-pointing:before {
+  content: "\ea6a";
+}
+.budicon-solid-looping-arrow:before {
+  content: "\ea6b";
+}
+.budicon-solid-outward-pointing:before {
+  content: "\ea6c";
+}
+.budicon-solid-note-alert:before {
+  content: "\ea6d";
+}
+.budicon-solid-note-block:before {
+  content: "\ea6e";
+}
+.budicon-solid-note-cross:before {
+  content: "\ea6f";
+}
+.budicon-solid-note-download:before {
+  content: "\ea70";
+}
+.budicon-solid-note-favorite:before {
+  content: "\ea71";
+}
+.budicon-solid-note-information:before {
+  content: "\ea72";
+}
+.budicon-solid-note-lock:before {
+  content: "\ea73";
+}
+.budicon-solid-note-love:before {
+  content: "\ea74";
+}
+.budicon-solid-note-minus:before {
+  content: "\ea75";
+}
+.budicon-solid-note-plus:before {
+  content: "\ea76";
+}
+.budicon-solid-note-quesrion:before {
+  content: "\ea77";
+}
+.budicon-solid-note-search:before {
+  content: "\ea78";
+}
+.budicon-solid-note-tick:before {
+  content: "\ea79";
+}
+.budicon-solid-note-upload:before {
+  content: "\ea7a";
+}
+.budicon-solid-note:before {
+  content: "\ea7b";
+}
+.budicon-solid-notes-alert:before {
+  content: "\ea7c";
+}
+.budicon-solid-notes-blank:before {
+  content: "\ea7d";
+}
+.budicon-solid-notes-block:before {
+  content: "\ea7e";
+}
+.budicon-solid-notes-cross:before {
+  content: "\ea7f";
+}
+.budicon-solid-notes-download:before {
+  content: "\ea80";
+}
+.budicon-solid-notes-favorite:before {
+  content: "\ea81";
+}
+.budicon-solid-notes-information:before {
+  content: "\ea82";
+}
+.budicon-solid-notes-list-a:before {
+  content: "\ea83";
+}
+.budicon-solid-notes-list:before {
+  content: "\ea84";
+}
+.budicon-solid-notes-lock:before {
+  content: "\ea85";
+}
+.budicon-solid-notes-love:before {
+  content: "\ea86";
+}
+.budicon-solid-notes-minus:before {
+  content: "\ea87";
+}
+.budicon-solid-notes-plus:before {
+  content: "\ea88";
+}
+.budicon-solid-notes-question:before {
+  content: "\ea89";
+}
+.budicon-solid-notes-search:before {
+  content: "\ea8a";
+}
+.budicon-solid-notes-tick:before {
+  content: "\ea8b";
+}
+.budicon-solid-notes-upload:before {
+  content: "\ea8c";
+}
+.budicon-solid-scheduled-note:before {
+  content: "\ea8d";
+}
+.budicon-solid-scheduled-notes:before {
+  content: "\ea8e";
+}
+.budicon-solid-shared-note:before {
+  content: "\ea8f";
+}
+.budicon-solid-shared-notes:before {
+  content: "\ea90";
+}
+.budicon-solid-branch-folders:before {
+  content: "\ea91";
+}
+.budicon-solid-folder-alert:before {
+  content: "\ea92";
+}
+.budicon-solid-folder-back:before {
+  content: "\ea93";
+}
+.budicon-solid-folder-block:before {
+  content: "\ea94";
+}
+.budicon-solid-folder-cross:before {
+  content: "\ea95";
+}
+.budicon-solid-folder-download:before {
+  content: "\ea96";
+}
+.budicon-solid-folder-favorite:before {
+  content: "\ea97";
+}
+.budicon-solid-folder-information:before {
+  content: "\ea98";
+}
+.budicon-solid-folder-lock:before {
+  content: "\ea99";
+}
+.budicon-solid-folder-love:before {
+  content: "\ea9a";
+}
+.budicon-solid-folder-minus:before {
+  content: "\ea9b";
+}
+.budicon-solid-folder-plus:before {
+  content: "\ea9c";
+}
+.budicon-solid-folder-question:before {
+  content: "\ea9d";
+}
+.budicon-solid-folder-sync:before {
+  content: "\ea9e";
+}
+.budicon-solid-folder-tick:before {
+  content: "\ea9f";
+}
+.budicon-solid-folder-upload:before {
+  content: "\eaa0";
+}
+.budicon-solid-folder:before {
+  content: "\eaa1";
+}
+.budicon-solid-scheduled-folder:before {
+  content: "\eaa2";
+}
+.budicon-solid-search-folder:before {
+  content: "\eaa3";
+}
+.budicon-solid-shared-folder:before {
+  content: "\eaa4";
+}
+.budicon-solid-stack-folders:before {
+  content: "\eaa5";
+}
+.budicon-solid-bear:before {
+  content: "\eaa6";
+}
+.budicon-solid-beaver:before {
+  content: "\eaa7";
+}
+.budicon-solid-cat-front:before {
+  content: "\eaa8";
+}
+.budicon-solid-chicken:before {
+  content: "\eaa9";
+}
+.budicon-solid-clamp:before {
+  content: "\eaaa";
+}
+.budicon-solid-clown-fish:before {
+  content: "\eaab";
+}
+.budicon-solid-cow-a:before {
+  content: "\eaac";
+}
+.budicon-solid-cow:before {
+  content: "\eaad";
+}
+.budicon-solid-crab:before {
+  content: "\eaae";
+}
+.budicon-solid-dog-front:before {
+  content: "\eaaf";
+}
+.budicon-solid-dog:before {
+  content: "\eab0";
+}
+.budicon-solid-duck:before {
+  content: "\eab1";
+}
+.budicon-solid-fish:before {
+  content: "\eab2";
+}
+.budicon-solid-fox:before {
+  content: "\eab3";
+}
+.budicon-solid-frog:before {
+  content: "\eab4";
+}
+.budicon-solid-gorilla:before {
+  content: "\eab5";
+}
+.budicon-solid-hedgehog:before {
+  content: "\eab6";
+}
+.budicon-solid-hippo:before {
+  content: "\eab7";
+}
+.budicon-solid-husky:before {
+  content: "\eab8";
+}
+.budicon-solid-jellyfish:before {
+  content: "\eab9";
+}
+.budicon-solid-lion:before {
+  content: "\eaba";
+}
+.budicon-solid-monkey:before {
+  content: "\eabb";
+}
+.budicon-solid-mouse-front:before {
+  content: "\eabc";
+}
+.budicon-solid-mouse:before {
+  content: "\eabd";
+}
+.budicon-solid-otter:before {
+  content: "\eabe";
+}
+.budicon-solid-panda:before {
+  content: "\eabf";
+}
+.budicon-solid-panther:before {
+  content: "\eac0";
+}
+.budicon-solid-pig:before {
+  content: "\eac1";
+}
+.budicon-solid-polar-bear:before {
+  content: "\eac2";
+}
+.budicon-solid-rabbit:before {
+  content: "\eac3";
+}
+.budicon-solid-sardine:before {
+  content: "\eac4";
+}
+.budicon-solid-seal:before {
+  content: "\eac5";
+}
+.budicon-solid-shark:before {
+  content: "\eac6";
+}
+.budicon-solid-shrimp:before {
+  content: "\eac7";
+}
+.budicon-solid-sloth:before {
+  content: "\eac8";
+}
+.budicon-solid-snail:before {
+  content: "\eac9";
+}
+.budicon-solid-squirrel:before {
+  content: "\eaca";
+}
+.budicon-solid-sympanse:before {
+  content: "\eacb";
+}
+.budicon-solid-tiger:before {
+  content: "\eacc";
+}
+.budicon-solid-whale:before {
+  content: "\eacd";
+}
+.budicon-solid-smart-watch-add:before {
+  content: "\eace";
+}
+.budicon-solid-smart-watch-bell:before {
+  content: "\eacf";
+}
+.budicon-solid-smart-watch-block:before {
+  content: "\ead0";
+}
+.budicon-solid-smart-watch-call:before {
+  content: "\ead1";
+}
+.budicon-solid-smart-watch-chat:before {
+  content: "\ead2";
+}
+.budicon-solid-smart-watch-dialog:before {
+  content: "\ead3";
+}
+.budicon-solid-smart-watch-download:before {
+  content: "\ead4";
+}
+.budicon-solid-smart-watch-finish:before {
+  content: "\ead5";
+}
+.budicon-solid-smart-watch-location:before {
+  content: "\ead6";
+}
+.budicon-solid-smart-watch-lock:before {
+  content: "\ead7";
+}
+.budicon-solid-smart-watch-love:before {
+  content: "\ead8";
+}
+.budicon-solid-smart-watch-mail:before {
+  content: "\ead9";
+}
+.budicon-solid-smart-watch-mic:before {
+  content: "\eada";
+}
+.budicon-solid-smart-watch-music:before {
+  content: "\eadb";
+}
+.budicon-solid-smart-watch-power:before {
+  content: "\eadc";
+}
+.budicon-solid-smart-watch-progress:before {
+  content: "\eadd";
+}
+.budicon-solid-smart-watch-rate:before {
+  content: "\eade";
+}
+.budicon-solid-smart-watch-rss:before {
+  content: "\eadf";
+}
+.budicon-solid-smart-watch-sad:before {
+  content: "\eae0";
+}
+.budicon-solid-smart-watch-search:before {
+  content: "\eae1";
+}
+.budicon-solid-smart-watch-smile:before {
+  content: "\eae2";
+}
+.budicon-solid-smart-watch-statistic:before {
+  content: "\eae3";
+}
+.budicon-solid-smart-watch-upload:before {
+  content: "\eae4";
+}
+.budicon-solid-smart-watch-user:before {
+  content: "\eae5";
+}
+.budicon-solid-smart-watch-video:before {
+  content: "\eae6";
+}
+.budicon-solid-smart-watch-volume:before {
+  content: "\eae7";
+}
+.budicon-solid-smart-watch:before {
+  content: "\eae8";
+}
+.budicon-solid-alert-sign-a:before {
+  content: "\eae9";
+}
+.budicon-solid-alert-sign:before {
+  content: "\eaea";
+}
+.budicon-solid-app-notification:before {
+  content: "\eaeb";
+}
+.budicon-solid-appear-password:before {
+  content: "\eaec";
+}
+.budicon-solid-block-sign:before {
+  content: "\eaed";
+}
+.budicon-solid-bookmark-ribbon:before {
+  content: "\eaee";
+}
+.budicon-solid-card-slides:before {
+  content: "\eaef";
+}
+.budicon-solid-check-ui:before {
+  content: "\eaf0";
+}
+.budicon-solid-checkboxes:before {
+  content: "\eaf1";
+}
+.budicon-solid-cloud-download:before {
+  content: "\eaf2";
+}
+.budicon-solid-cloud-upload:before {
+  content: "\eaf3";
+}
+.budicon-solid-cmd-sign:before {
+  content: "\eaf4";
+}
+.budicon-solid-cog:before {
+  content: "\eaf5";
+}
+.budicon-solid-collapse-list:before {
+  content: "\eaf6";
+}
+.budicon-solid-cross-sign-square:before {
+  content: "\eaf7";
+}
+.budicon-solid-cross-sign:before {
+  content: "\eaf8";
+}
+.budicon-solid-cross-ui:before {
+  content: "\eaf9";
+}
+.budicon-solid-dashboard:before {
+  content: "\eafa";
+}
+.budicon-solid-dislike:before {
+  content: "\eafb";
+}
+.budicon-solid-download-queue:before {
+  content: "\eafc";
+}
+.budicon-solid-exit-fullscreen:before {
+  content: "\eafd";
+}
+.budicon-solid-expand-list:before {
+  content: "\eafe";
+}
+.budicon-solid-expand-view:before {
+  content: "\eaff";
+}
+.budicon-solid-filter:before {
+  content: "\eb00";
+}
+.budicon-solid-fullscreen:before {
+  content: "\eb01";
+}
+.budicon-solid-hamburger-ui-a:before {
+  content: "\eb02";
+}
+.budicon-solid-hamburger-ui-b:before {
+  content: "\eb03";
+}
+.budicon-solid-hamburger-ui:before {
+  content: "\eb04";
+}
+.budicon-solid-heart:before {
+  content: "\eb05";
+}
+.budicon-solid-hide-password:before {
+  content: "\eb06";
+}
+.budicon-solid-home-a:before {
+  content: "\eb07";
+}
+.budicon-solid-home:before {
+  content: "\eb08";
+}
+.budicon-solid-internal-link:before {
+  content: "\eb09";
+}
+.budicon-solid-kebab-ui:before {
+  content: "\eb0a";
+}
+.budicon-solid-life-buoy:before {
+  content: "\eb0b";
+}
+.budicon-solid-like:before {
+  content: "\eb0c";
+}
+.budicon-solid-loading-sign:before {
+  content: "\eb0d";
+}
+.budicon-solid-lock:before {
+  content: "\eb0e";
+}
+.budicon-solid-login:before {
+  content: "\eb0f";
+}
+.budicon-solid-logout:before {
+  content: "\eb10";
+}
+.budicon-solid-meatball-ui:before {
+  content: "\eb11";
+}
+.budicon-solid-mic-ui-mute:before {
+  content: "\eb12";
+}
+.budicon-solid-mic-ui:before {
+  content: "\eb13";
+}
+.budicon-solid-minimize-view:before {
+  content: "\eb14";
+}
+.budicon-solid-minus-sign-square:before {
+  content: "\eb15";
+}
+.budicon-solid-minus-sign:before {
+  content: "\eb16";
+}
+.budicon-solid-minus-ui:before {
+  content: "\eb17";
+}
+.budicon-solid-monitor-resolution:before {
+  content: "\eb18";
+}
+.budicon-solid-move-to-bottom:before {
+  content: "\eb19";
+}
+.budicon-solid-move-to-top:before {
+  content: "\eb1a";
+}
+.budicon-solid-notification-a:before {
+  content: "\eb1b";
+}
+.budicon-solid-notification:before {
+  content: "\eb1c";
+}
+.budicon-solid-outgoing-link:before {
+  content: "\eb1d";
+}
+.budicon-solid-plus-sign-square:before {
+  content: "\eb1e";
+}
+.budicon-solid-plus-sign:before {
+  content: "\eb1f";
+}
+.budicon-solid-plus-ui:before {
+  content: "\eb20";
+}
+.budicon-solid-power-sign:before {
+  content: "\eb21";
+}
+.budicon-solid-previouse-queue:before {
+  content: "\eb22";
+}
+.budicon-solid-print-a:before {
+  content: "\eb23";
+}
+.budicon-solid-print:before {
+  content: "\eb24";
+}
+.budicon-solid-radar:before {
+  content: "\eb25";
+}
+.budicon-solid-refresh-ui:before {
+  content: "\eb26";
+}
+.budicon-solid-reload-ui:before {
+  content: "\eb27";
+}
+.budicon-solid-reply-a:before {
+  content: "\eb28";
+}
+.budicon-solid-reply-all:before {
+  content: "\eb29";
+}
+.budicon-solid-reply:before {
+  content: "\eb2a";
+}
+.budicon-solid-search-a:before {
+  content: "\eb2b";
+}
+.budicon-solid-search-cross-a:before {
+  content: "\eb2c";
+}
+.budicon-solid-search-cross:before {
+  content: "\eb2d";
+}
+.budicon-solid-search-list:before {
+  content: "\eb2e";
+}
+.budicon-solid-search-minus-a:before {
+  content: "\eb2f";
+}
+.budicon-solid-search-minus:before {
+  content: "\eb30";
+}
+.budicon-solid-search-plus-a:before {
+  content: "\eb31";
+}
+.budicon-solid-search-plus:before {
+  content: "\eb32";
+}
+.budicon-solid-search-tick-a:before {
+  content: "\eb33";
+}
+.budicon-solid-search-tick:before {
+  content: "\eb34";
+}
+.budicon-solid-search-view-minus:before {
+  content: "\eb35";
+}
+.budicon-solid-search-view-plus:before {
+  content: "\eb36";
+}
+.budicon-solid-search-view:before {
+  content: "\eb37";
+}
+.budicon-solid-search:before {
+  content: "\eb38";
+}
+.budicon-solid-share:before {
+  content: "\eb39";
+}
+.budicon-solid-shortcut-list:before {
+  content: "\eb3a";
+}
+.budicon-solid-star:before {
+  content: "\eb3b";
+}
+.budicon-solid-stars:before {
+  content: "\eb3c";
+}
+.budicon-solid-tick-sign-square:before {
+  content: "\eb3d";
+}
+.budicon-solid-tick-sign:before {
+  content: "\eb3e";
+}
+.budicon-solid-trash-cancel:before {
+  content: "\eb3f";
+}
+.budicon-solid-trash-ui:before {
+  content: "\eb40";
+}
+.budicon-solid-trash:before {
+  content: "\eb41";
+}
+.budicon-solid-ui-compose-a:before {
+  content: "\eb42";
+}
+.budicon-solid-ui-compose:before {
+  content: "\eb43";
+}
+.budicon-solid-ui-flag-a:before {
+  content: "\eb44";
+}
+.budicon-solid-ui-flag-b:before {
+  content: "\eb45";
+}
+.budicon-solid-ui-flag:before {
+  content: "\eb46";
+}
+.budicon-solid-ui-speed:before {
+  content: "\eb47";
+}
+.budicon-solid-unlock:before {
+  content: "\eb48";
+}
+.budicon-solid-upload-queue:before {
+  content: "\eb49";
+}
+.budicon-solid-uploading-ui:before {
+  content: "\eb4a";
+}
+.budicon-solid-view:before {
+  content: "\eb4b";
+}
+.budicon-solid-wide-fullscreen:before {
+  content: "\eb4c";
+}
+.budicon-solid-aluminum-bag:before {
+  content: "\eb4d";
+}
+.budicon-solid-brown-envelope:before {
+  content: "\eb4e";
+}
+.budicon-solid-business-checklist:before {
+  content: "\eb4f";
+}
+.budicon-solid-business-growth:before {
+  content: "\eb50";
+}
+.budicon-solid-business-note:before {
+  content: "\eb51";
+}
+.budicon-solid-business-performance:before {
+  content: "\eb52";
+}
+.budicon-solid-business-plan:before {
+  content: "\eb53";
+}
+.budicon-solid-business-strategy:before {
+  content: "\eb54";
+}
+.budicon-solid-business-target:before {
+  content: "\eb55";
+}
+.budicon-solid-calculator:before {
+  content: "\eb56";
+}
+.budicon-solid-cheque:before {
+  content: "\eb57";
+}
+.budicon-solid-deal:before {
+  content: "\eb58";
+}
+.budicon-solid-duct-tape:before {
+  content: "\eb59";
+}
+.budicon-solid-file-storage:before {
+  content: "\eb5a";
+}
+.budicon-solid-filing:before {
+  content: "\eb5b";
+}
+.budicon-solid-office-bag-a:before {
+  content: "\eb5c";
+}
+.budicon-solid-office-bag-b:before {
+  content: "\eb5d";
+}
+.budicon-solid-office-bag-c:before {
+  content: "\eb5e";
+}
+.budicon-solid-office-bag:before {
+  content: "\eb5f";
+}
+.budicon-solid-office-stationary:before {
+  content: "\eb60";
+}
+.budicon-solid-organization:before {
+  content: "\eb61";
+}
+.budicon-solid-photocopy-machine:before {
+  content: "\eb62";
+}
+.budicon-solid-presentation-deck:before {
+  content: "\eb63";
+}
+.budicon-solid-presentation:before {
+  content: "\eb64";
+}
+.budicon-solid-project-folder:before {
+  content: "\eb65";
+}
+.budicon-solid-safe-deposit:before {
+  content: "\eb66";
+}
+.budicon-solid-shredder:before {
+  content: "\eb67";
+}
+.budicon-solid-speech:before {
+  content: "\eb68";
+}
+.budicon-solid-stapler:before {
+  content: "\eb69";
+}
+.budicon-solid-tie:before {
+  content: "\eb6a";
+}
+.budicon-solid-atm:before {
+  content: "\eb6b";
+}
+.budicon-solid-attachment-dollar:before {
+  content: "\eb6c";
+}
+.budicon-solid-bad-trends:before {
+  content: "\eb6d";
+}
+.budicon-solid-bank-a:before {
+  content: "\eb6e";
+}
+.budicon-solid-bubble-chart:before {
+  content: "\eb6f";
+}
+.budicon-solid-cash-dollar:before {
+  content: "\eb70";
+}
+.budicon-solid-cash:before {
+  content: "\eb71";
+}
+.budicon-solid-dollar-sign:before {
+  content: "\eb72";
+}
+.budicon-solid-donation:before {
+  content: "\eb73";
+}
+.budicon-solid-donut-chart:before {
+  content: "\eb74";
+}
+.budicon-solid-euro:before {
+  content: "\eb75";
+}
+.budicon-solid-finance-policy:before {
+  content: "\eb76";
+}
+.budicon-solid-finance-project:before {
+  content: "\eb77";
+}
+.budicon-solid-good-trends:before {
+  content: "\eb78";
+}
+.budicon-solid-graphic-moderate-a:before {
+  content: "\eb79";
+}
+.budicon-solid-graphic-moderate:before {
+  content: "\eb7a";
+}
+.budicon-solid-graphic-up-a:before {
+  content: "\eb7b";
+}
+.budicon-solid-graphic-up:before {
+  content: "\eb7c";
+}
+.budicon-solid-horizontal-graphic:before {
+  content: "\eb7d";
+}
+.budicon-solid-line-chart:before {
+  content: "\eb7e";
+}
+.budicon-solid-mobile-banking:before {
+  content: "\eb7f";
+}
+.budicon-solid-mobile-payment:before {
+  content: "\eb80";
+}
+.budicon-solid-online-stock:before {
+  content: "\eb81";
+}
+.budicon-solid-performance-board-a:before {
+  content: "\eb82";
+}
+.budicon-solid-performance-board-minus:before {
+  content: "\eb83";
+}
+.budicon-solid-performance-board-plus:before {
+  content: "\eb84";
+}
+.budicon-solid-performance-board-tick:before {
+  content: "\eb85";
+}
+.budicon-solid-performance-board:before {
+  content: "\eb86";
+}
+.budicon-solid-pie-chart-a:before {
+  content: "\eb87";
+}
+.budicon-solid-pie-chart:before {
+  content: "\eb88";
+}
+.budicon-solid-portfolio:before {
+  content: "\eb89";
+}
+.budicon-solid-poundsterling:before {
+  content: "\eb8a";
+}
+.budicon-solid-presentation-slide-a:before {
+  content: "\eb8b";
+}
+.budicon-solid-presentation-slide:before {
+  content: "\eb8c";
+}
+.budicon-solid-refund-dollar:before {
+  content: "\eb8d";
+}
+.budicon-solid-refund:before {
+  content: "\eb8e";
+}
+.budicon-solid-safe-case:before {
+  content: "\eb8f";
+}
+.budicon-solid-savings:before {
+  content: "\eb90";
+}
+.budicon-solid-send-dollar:before {
+  content: "\eb91";
+}
+.budicon-solid-send-money:before {
+  content: "\eb92";
+}
+.budicon-solid-web-banking:before {
+  content: "\eb93";
+}
+.budicon-solid-withdraw-dollar:before {
+  content: "\eb94";
+}
+.budicon-solid-withdraw-money:before {
+  content: "\eb95";
+}
+.budicon-solid-yen:before {
+  content: "\eb96";
+}
+.budicon-solid-backpack:before {
+  content: "\eb97";
+}
+.budicon-solid-barcode:before {
+  content: "\eb98";
+}
+.budicon-solid-bill-cross:before {
+  content: "\eb99";
+}
+.budicon-solid-bill-download:before {
+  content: "\eb9a";
+}
+.budicon-solid-bill-lock:before {
+  content: "\eb9b";
+}
+.budicon-solid-bill-minus:before {
+  content: "\eb9c";
+}
+.budicon-solid-bill-plus:before {
+  content: "\eb9d";
+}
+.budicon-solid-bill-tick:before {
+  content: "\eb9e";
+}
+.budicon-solid-bill-upload:before {
+  content: "\eb9f";
+}
+.budicon-solid-bill:before {
+  content: "\eba0";
+}
+.budicon-solid-bow-tie:before {
+  content: "\eba1";
+}
+.budicon-solid-cart-cross:before {
+  content: "\eba2";
+}
+.budicon-solid-cart-download:before {
+  content: "\eba3";
+}
+.budicon-solid-cart-lock:before {
+  content: "\eba4";
+}
+.budicon-solid-cart-love:before {
+  content: "\eba5";
+}
+.budicon-solid-cart-minus:before {
+  content: "\eba6";
+}
+.budicon-solid-cart-plus:before {
+  content: "\eba7";
+}
+.budicon-solid-cart-search:before {
+  content: "\eba8";
+}
+.budicon-solid-cart-tick:before {
+  content: "\eba9";
+}
+.budicon-solid-cart-upload:before {
+  content: "\ebaa";
+}
+.budicon-solid-cart:before {
+  content: "\ebab";
+}
+.budicon-solid-credit-card-a:before {
+  content: "\ebac";
+}
+.budicon-solid-credit-card:before {
+  content: "\ebad";
+}
+.budicon-solid-digital-download:before {
+  content: "\ebae";
+}
+.budicon-solid-digital-upload:before {
+  content: "\ebaf";
+}
+.budicon-solid-discount-coupon:before {
+  content: "\ebb0";
+}
+.budicon-solid-dollar-paper-a:before {
+  content: "\ebb1";
+}
+.budicon-solid-dollar-paper:before {
+  content: "\ebb2";
+}
+.budicon-solid-express:before {
+  content: "\ebb3";
+}
+.budicon-solid-hiking-backpack:before {
+  content: "\ebb4";
+}
+.budicon-solid-invoice:before {
+  content: "\ebb5";
+}
+.budicon-solid-jewelry:before {
+  content: "\ebb6";
+}
+.budicon-solid-lipstick:before {
+  content: "\ebb7";
+}
+.budicon-solid-long-pant:before {
+  content: "\ebb8";
+}
+.budicon-solid-market-sign:before {
+  content: "\ebb9";
+}
+.budicon-solid-market:before {
+  content: "\ebba";
+}
+.budicon-solid-mastercard:before {
+  content: "\ebbb";
+}
+.budicon-solid-membership-card:before {
+  content: "\ebbc";
+}
+.budicon-solid-messenger-bag:before {
+  content: "\ebbd";
+}
+.budicon-solid-mobile-barcode:before {
+  content: "\ebbe";
+}
+.budicon-solid-money-a:before {
+  content: "\ebbf";
+}
+.budicon-solid-money:before {
+  content: "\ebc0";
+}
+.budicon-solid-packaging:before {
+  content: "\ebc1";
+}
+.budicon-solid-parcel:before {
+  content: "\ebc2";
+}
+.budicon-solid-price-tag:before {
+  content: "\ebc3";
+}
+.budicon-solid-purse:before {
+  content: "\ebc4";
+}
+.budicon-solid-receipt:before {
+  content: "\ebc5";
+}
+.budicon-solid-search-bill:before {
+  content: "\ebc6";
+}
+.budicon-solid-shipping:before {
+  content: "\ebc7";
+}
+.budicon-solid-shirt:before {
+  content: "\ebc8";
+}
+.budicon-solid-shopping-bag:before {
+  content: "\ebc9";
+}
+.budicon-solid-shopping-bags:before {
+  content: "\ebca";
+}
+.budicon-solid-short-pant:before {
+  content: "\ebcb";
+}
+.budicon-solid-socks:before {
+  content: "\ebcc";
+}
+.budicon-solid-tag-cross:before {
+  content: "\ebcd";
+}
+.budicon-solid-tag-minus:before {
+  content: "\ebce";
+}
+.budicon-solid-tag-plus:before {
+  content: "\ebcf";
+}
+.budicon-solid-tag-search:before {
+  content: "\ebd0";
+}
+.budicon-solid-tag-tick:before {
+  content: "\ebd1";
+}
+.budicon-solid-tag:before {
+  content: "\ebd2";
+}
+.budicon-solid-underpant:before {
+  content: "\ebd3";
+}
+.budicon-solid-upside-sign:before {
+  content: "\ebd4";
+}
+.budicon-solid-wallet:before {
+  content: "\ebd5";
+}
+.budicon-solid-wishlist:before {
+  content: "\ebd6";
+}
+.budicon-solid-apron:before {
+  content: "\ebd7";
+}
+.budicon-solid-bbq:before {
+  content: "\ebd8";
+}
+.budicon-solid-blower:before {
+  content: "\ebd9";
+}
+.budicon-solid-butcher-knife:before {
+  content: "\ebda";
+}
+.budicon-solid-coffee-maker:before {
+  content: "\ebdb";
+}
+.budicon-solid-coffee-press:before {
+  content: "\ebdc";
+}
+.budicon-solid-exhaust:before {
+  content: "\ebdd";
+}
+.budicon-solid-food-cover:before {
+  content: "\ebde";
+}
+.budicon-solid-fridge:before {
+  content: "\ebdf";
+}
+.budicon-solid-hand-juicer:before {
+  content: "\ebe0";
+}
+.budicon-solid-hand-mixer:before {
+  content: "\ebe1";
+}
+.budicon-solid-heat:before {
+  content: "\ebe2";
+}
+.budicon-solid-high-pot:before {
+  content: "\ebe3";
+}
+.budicon-solid-hot-pot:before {
+  content: "\ebe4";
+}
+.budicon-solid-ingredients:before {
+  content: "\ebe5";
+}
+.budicon-solid-juice-container:before {
+  content: "\ebe6";
+}
+.budicon-solid-juicer:before {
+  content: "\ebe7";
+}
+.budicon-solid-kitchen-glove:before {
+  content: "\ebe8";
+}
+.budicon-solid-kitchen-shaver:before {
+  content: "\ebe9";
+}
+.budicon-solid-knife:before {
+  content: "\ebea";
+}
+.budicon-solid-large-pot:before {
+  content: "\ebeb";
+}
+.budicon-solid-low-pot:before {
+  content: "\ebec";
+}
+.budicon-solid-measuring-cup:before {
+  content: "\ebed";
+}
+.budicon-solid-microwave:before {
+  content: "\ebee";
+}
+.budicon-solid-mixer:before {
+  content: "\ebef";
+}
+.budicon-solid-outdoor-bbq:before {
+  content: "\ebf0";
+}
+.budicon-solid-pomodoro:before {
+  content: "\ebf1";
+}
+.budicon-solid-rice-cooker:before {
+  content: "\ebf2";
+}
+.budicon-solid-roller:before {
+  content: "\ebf3";
+}
+.budicon-solid-sauce-pan-hot:before {
+  content: "\ebf4";
+}
+.budicon-solid-sauce-pan:before {
+  content: "\ebf5";
+}
+.budicon-solid-spatula:before {
+  content: "\ebf6";
+}
+.budicon-solid-stand-mixer:before {
+  content: "\ebf7";
+}
+.budicon-solid-stone-oven:before {
+  content: "\ebf8";
+}
+.budicon-solid-taste:before {
+  content: "\ebf9";
+}
+.budicon-solid-tea-pot:before {
+  content: "\ebfa";
+}
+.budicon-solid-temperature-controller:before {
+  content: "\ebfb";
+}
+.budicon-solid-tissue:before {
+  content: "\ebfc";
+}
+.budicon-solid-toaster:before {
+  content: "\ebfd";
+}
+.budicon-solid-trash-bin:before {
+  content: "\ebfe";
+}
+.budicon-solid-weigher:before {
+  content: "\ebff";
+}
+.budicon-solid-Artboard-101:before {
+  content: "\ec00";
+}
+.budicon-solid-Artboard-102:before {
+  content: "\ec01";
+}
+.budicon-solid-female-user-block:before {
+  content: "\ec02";
+}
+.budicon-solid-female-user-cross:before {
+  content: "\ec03";
+}
+.budicon-solid-female-user-favorite:before {
+  content: "\ec04";
+}
+.budicon-solid-female-user-information:before {
+  content: "\ec05";
+}
+.budicon-solid-female-user-lock:before {
+  content: "\ec06";
+}
+.budicon-solid-female-user-minus:before {
+  content: "\ec07";
+}
+.budicon-solid-female-user-plus:before {
+  content: "\ec08";
+}
+.budicon-solid-female-user-search:before {
+  content: "\ec09";
+}
+.budicon-solid-female-user-tick:before {
+  content: "\ec0a";
+}
+.budicon-solid-female-user:before {
+  content: "\ec0b";
+}
+.budicon-solid-female:before {
+  content: "\ec0c";
+}
+.budicon-solid-gender:before {
+  content: "\ec0d";
+}
+.budicon-solid-group:before {
+  content: "\ec0e";
+}
+.budicon-solid-male:before {
+  content: "\ec0f";
+}
+.budicon-solid-profile-picture:before {
+  content: "\ec10";
+}
+.budicon-solid-shared-user:before {
+  content: "\ec11";
+}
+.budicon-solid-user-a:before {
+  content: "\ec12";
+}
+.budicon-solid-user-b:before {
+  content: "\ec13";
+}
+.budicon-solid-user-block-a:before {
+  content: "\ec14";
+}
+.budicon-solid-user-block-b:before {
+  content: "\ec15";
+}
+.budicon-solid-user-block-c:before {
+  content: "\ec16";
+}
+.budicon-solid-user-block:before {
+  content: "\ec17";
+}
+.budicon-solid-user-c:before {
+  content: "\ec18";
+}
+.budicon-solid-user-card-a:before {
+  content: "\ec19";
+}
+.budicon-solid-user-card:before {
+  content: "\ec1a";
+}
+.budicon-solid-user-cross-a:before {
+  content: "\ec1b";
+}
+.budicon-solid-user-cross-b:before {
+  content: "\ec1c";
+}
+.budicon-solid-user-cross-c:before {
+  content: "\ec1d";
+}
+.budicon-solid-user-cross:before {
+  content: "\ec1e";
+}
+.budicon-solid-user-favorite-a:before {
+  content: "\ec1f";
+}
+.budicon-solid-user-favorite-b:before {
+  content: "\ec20";
+}
+.budicon-solid-user-favorite-c:before {
+  content: "\ec21";
+}
+.budicon-solid-user-favorite:before {
+  content: "\ec22";
+}
+.budicon-solid-user-information-a:before {
+  content: "\ec23";
+}
+.budicon-solid-user-information-b:before {
+  content: "\ec24";
+}
+.budicon-solid-user-information-c:before {
+  content: "\ec25";
+}
+.budicon-solid-user-information:before {
+  content: "\ec26";
+}
+.budicon-solid-user-list-a:before {
+  content: "\ec27";
+}
+.budicon-solid-user-list-b:before {
+  content: "\ec28";
+}
+.budicon-solid-user-list-c:before {
+  content: "\ec29";
+}
+.budicon-solid-user-list-d:before {
+  content: "\ec2a";
+}
+.budicon-solid-user-lock-a:before {
+  content: "\ec2b";
+}
+.budicon-solid-user-lock-b:before {
+  content: "\ec2c";
+}
+.budicon-solid-user-lock-c:before {
+  content: "\ec2d";
+}
+.budicon-solid-user-lock:before {
+  content: "\ec2e";
+}
+.budicon-solid-user-minus-a:before {
+  content: "\ec2f";
+}
+.budicon-solid-user-minus-b:before {
+  content: "\ec30";
+}
+.budicon-solid-user-minus-c:before {
+  content: "\ec31";
+}
+.budicon-solid-user-minus:before {
+  content: "\ec32";
+}
+.budicon-solid-user-plus-a:before {
+  content: "\ec33";
+}
+.budicon-solid-user-plus-b:before {
+  content: "\ec34";
+}
+.budicon-solid-user-plus-c:before {
+  content: "\ec35";
+}
+.budicon-solid-user-plus:before {
+  content: "\ec36";
+}
+.budicon-solid-user-search-a:before {
+  content: "\ec37";
+}
+.budicon-solid-user-search-b:before {
+  content: "\ec38";
+}
+.budicon-solid-user-search-c:before {
+  content: "\ec39";
+}
+.budicon-solid-user-search:before {
+  content: "\ec3a";
+}
+.budicon-solid-user-tick-a:before {
+  content: "\ec3b";
+}
+.budicon-solid-user-tick-b:before {
+  content: "\ec3c";
+}
+.budicon-solid-user-tick-c:before {
+  content: "\ec3d";
+}
+.budicon-solid-user-tick:before {
+  content: "\ec3e";
+}
+.budicon-solid-user:before {
+  content: "\ec3f";
+}
+.budicon-solid-alien:before {
+  content: "\ec40";
+}
+.budicon-solid-astronout:before {
+  content: "\ec41";
+}
+.budicon-solid-comet:before {
+  content: "\ec42";
+}
+.budicon-solid-earth:before {
+  content: "\ec43";
+}
+.budicon-solid-galaxy-hole:before {
+  content: "\ec44";
+}
+.budicon-solid-galaxy:before {
+  content: "\ec45";
+}
+.budicon-solid-jupiter:before {
+  content: "\ec46";
+}
+.budicon-solid-lunar-flag:before {
+  content: "\ec47";
+}
+.budicon-solid-mars:before {
+  content: "\ec48";
+}
+.budicon-solid-observatory:before {
+  content: "\ec49";
+}
+.budicon-solid-radar2:before {
+  content: "\ec4a";
+}
+.budicon-solid-raygun:before {
+  content: "\ec4b";
+}
+.budicon-solid-research:before {
+  content: "\ec4c";
+}
+.budicon-solid-robot:before {
+  content: "\ec4d";
+}
+.budicon-solid-rocket:before {
+  content: "\ec4e";
+}
+.budicon-solid-satellite:before {
+  content: "\ec4f";
+}
+.budicon-solid-saturn:before {
+  content: "\ec50";
+}
+.budicon-solid-science:before {
+  content: "\ec51";
+}
+.budicon-solid-space-helmet:before {
+  content: "\ec52";
+}
+.budicon-solid-space-house:before {
+  content: "\ec53";
+}
+.budicon-solid-space-shuttle:before {
+  content: "\ec54";
+}
+.budicon-solid-spaceship:before {
+  content: "\ec55";
+}
+.budicon-solid-telescope:before {
+  content: "\ec56";
+}
+.budicon-solid-ufo:before {
+  content: "\ec57";
+}
+.budicon-solid-abc-blocks:before {
+  content: "\ec58";
+}
+.budicon-solid-baby-bottle:before {
+  content: "\ec59";
+}
+.budicon-solid-baby-dot:before {
+  content: "\ec5a";
+}
+.budicon-solid-baby-jumper:before {
+  content: "\ec5b";
+}
+.budicon-solid-balloon:before {
+  content: "\ec5c";
+}
+.budicon-solid-birthday-cake:before {
+  content: "\ec5d";
+}
+.budicon-solid-birthday-party:before {
+  content: "\ec5e";
+}
+.budicon-solid-castle-toy:before {
+  content: "\ec5f";
+}
+.budicon-solid-diaper:before {
+  content: "\ec60";
+}
+.budicon-solid-girl-clothes:before {
+  content: "\ec61";
+}
+.budicon-solid-gun-toy:before {
+  content: "\ec62";
+}
+.budicon-solid-kid-bottle-love:before {
+  content: "\ec63";
+}
+.budicon-solid-kid-bottle:before {
+  content: "\ec64";
+}
+.budicon-solid-kite:before {
+  content: "\ec65";
+}
+.budicon-solid-shape-blocks:before {
+  content: "\ec66";
+}
+.budicon-solid-teddy-bear:before {
+  content: "\ec67";
+}
+.budicon-solid-thermometer:before {
+  content: "\ec68";
+}
+.budicon-solid-train-toy:before {
+  content: "\ec69";
+}
+.budicon-solid-alignment-center:before {
+  content: "\ec6a";
+}
+.budicon-solid-alignment-left:before {
+  content: "\ec6b";
+}
+.budicon-solid-alignment-right:before {
+  content: "\ec6c";
+}
+.budicon-solid-anchor-link:before {
+  content: "\ec6d";
+}
+.budicon-solid-ascending-order:before {
+  content: "\ec6e";
+}
+.budicon-solid-asterisk:before {
+  content: "\ec6f";
+}
+.budicon-solid-change-order:before {
+  content: "\ec70";
+}
+.budicon-solid-check-done:before {
+  content: "\ec71";
+}
+.budicon-solid-columns:before {
+  content: "\ec72";
+}
+.budicon-solid-compose:before {
+  content: "\ec73";
+}
+.budicon-solid-descending-order:before {
+  content: "\ec74";
+}
+.budicon-solid-digital-keyboard:before {
+  content: "\ec75";
+}
+.budicon-solid-document-page:before {
+  content: "\ec76";
+}
+.budicon-solid-forward-page:before {
+  content: "\ec77";
+}
+.budicon-solid-front-page:before {
+  content: "\ec78";
+}
+.budicon-solid-grid-view:before {
+  content: "\ec79";
+}
+.budicon-solid-image-caption:before {
+  content: "\ec7a";
+}
+.budicon-solid-indent-left:before {
+  content: "\ec7b";
+}
+.budicon-solid-indent-right:before {
+  content: "\ec7c";
+}
+.budicon-solid-justify-center:before {
+  content: "\ec7d";
+}
+.budicon-solid-justify-left:before {
+  content: "\ec7e";
+}
+.budicon-solid-justify-right:before {
+  content: "\ec7f";
+}
+.budicon-solid-keyboard-appear:before {
+  content: "\ec80";
+}
+.budicon-solid-keyboard-down:before {
+  content: "\ec81";
+}
+.budicon-solid-media-player-page:before {
+  content: "\ec82";
+}
+.budicon-solid-page-blank:before {
+  content: "\ec83";
+}
+.budicon-solid-page-block:before {
+  content: "\ec84";
+}
+.budicon-solid-page-cross:before {
+  content: "\ec85";
+}
+.budicon-solid-page-lock:before {
+  content: "\ec86";
+}
+.budicon-solid-page-mark:before {
+  content: "\ec87";
+}
+.budicon-solid-page-minus:before {
+  content: "\ec88";
+}
+.budicon-solid-page-plus:before {
+  content: "\ec89";
+}
+.budicon-solid-page-tick:before {
+  content: "\ec8a";
+}
+.budicon-solid-pen-add:before {
+  content: "\ec8b";
+}
+.budicon-solid-pen-cross:before {
+  content: "\ec8c";
+}
+.budicon-solid-pen-minus:before {
+  content: "\ec8d";
+}
+.budicon-solid-pen-tick:before {
+  content: "\ec8e";
+}
+.budicon-solid-pen-writing:before {
+  content: "\ec8f";
+}
+.budicon-solid-pen:before {
+  content: "\ec90";
+}
+.budicon-solid-pencil-writing:before {
+  content: "\ec91";
+}
+.budicon-solid-reading-list:before {
+  content: "\ec92";
+}
+.budicon-solid-redo:before {
+  content: "\ec93";
+}
+.budicon-solid-search-page:before {
+  content: "\ec94";
+}
+.budicon-solid-text-box:before {
+  content: "\ec95";
+}
+.budicon-solid-undo:before {
+  content: "\ec96";
+}
+.budicon-solid-vertical-align-bottom:before {
+  content: "\ec97";
+}
+.budicon-solid-vertical-align-top:before {
+  content: "\ec98";
+}
+.budicon-solid-vertical-allign-middle:before {
+  content: "\ec99";
+}
+.budicon-solid-writing-link:before {
+  content: "\ec9a";
+}
+.budicon-solid-d-glasses:before {
+  content: "\ec9b";
+}
+.budicon-solid-airdrop:before {
+  content: "\ec9c";
+}
+.budicon-solid-android-landscape:before {
+  content: "\ec9d";
+}
+.budicon-solid-android-wifi:before {
+  content: "\ec9e";
+}
+.budicon-solid-android:before {
+  content: "\ec9f";
+}
+.budicon-solid-bluetooth-circle:before {
+  content: "\eca0";
+}
+.budicon-solid-bluetooth:before {
+  content: "\eca1";
+}
+.budicon-solid-browser-cross:before {
+  content: "\eca2";
+}
+.budicon-solid-browser-minus:before {
+  content: "\eca3";
+}
+.budicon-solid-browser-plus:before {
+  content: "\eca4";
+}
+.budicon-solid-browser-tick:before {
+  content: "\eca5";
+}
+.budicon-solid-browser:before {
+  content: "\eca6";
+}
+.budicon-solid-cable-cord:before {
+  content: "\eca7";
+}
+.budicon-solid-cardboard:before {
+  content: "\eca8";
+}
+.budicon-solid-charging:before {
+  content: "\eca9";
+}
+.budicon-solid-chrome-cast:before {
+  content: "\ecaa";
+}
+.budicon-solid-cloud-server:before {
+  content: "\ecab";
+}
+.budicon-solid-desktop-smartphone:before {
+  content: "\ecac";
+}
+.budicon-solid-desktop-wifi:before {
+  content: "\ecad";
+}
+.budicon-solid-desktop:before {
+  content: "\ecae";
+}
+.budicon-solid-development-bug:before {
+  content: "\ecaf";
+}
+.budicon-solid-drone:before {
+  content: "\ecb0";
+}
+.budicon-solid-dvd-i-cable:before {
+  content: "\ecb1";
+}
+.budicon-solid-flashlight2:before {
+  content: "\ecb2";
+}
+.budicon-solid-game-console:before {
+  content: "\ecb3";
+}
+.budicon-solid-gameboy:before {
+  content: "\ecb4";
+}
+.budicon-solid-gaming-mouse:before {
+  content: "\ecb5";
+}
+.budicon-solid-google-phone-landscape:before {
+  content: "\ecb6";
+}
+.budicon-solid-google-phone:before {
+  content: "\ecb7";
+}
+.budicon-solid-hdmi-cable:before {
+  content: "\ecb8";
+}
+.budicon-solid-hosting-server:before {
+  content: "\ecb9";
+}
+.budicon-solid-house-cloud:before {
+  content: "\ecba";
+}
+.budicon-solid-house-network:before {
+  content: "\ecbb";
+}
+.budicon-solid-internet-network:before {
+  content: "\ecbc";
+}
+.budicon-solid-iphone-landscape:before {
+  content: "\ecbd";
+}
+.budicon-solid-iphone-wifi:before {
+  content: "\ecbe";
+}
+.budicon-solid-iphone:before {
+  content: "\ecbf";
+}
+.budicon-solid-keyboard-a:before {
+  content: "\ecc0";
+}
+.budicon-solid-keyboard:before {
+  content: "\ecc1";
+}
+.budicon-solid-laptop-smartphone:before {
+  content: "\ecc2";
+}
+.budicon-solid-laptop-wifi:before {
+  content: "\ecc3";
+}
+.budicon-solid-laptop:before {
+  content: "\ecc4";
+}
+.budicon-solid-magic-mouse:before {
+  content: "\ecc5";
+}
+.budicon-solid-magnet:before {
+  content: "\ecc6";
+}
+.budicon-solid-mobile-earphone:before {
+  content: "\ecc7";
+}
+.budicon-solid-mobile-photo-scan:before {
+  content: "\ecc8";
+}
+.budicon-solid-modem-externder:before {
+  content: "\ecc9";
+}
+.budicon-solid-modem:before {
+  content: "\ecca";
+}
+.budicon-solid-nintendo-console:before {
+  content: "\eccb";
+}
+.budicon-solid-processor-chip:before {
+  content: "\eccc";
+}
+.budicon-solid-projector:before {
+  content: "\eccd";
+}
+.budicon-solid-remote-control:before {
+  content: "\ecce";
+}
+.budicon-solid-search-browser:before {
+  content: "\eccf";
+}
+.budicon-solid-security-guard:before {
+  content: "\ecd0";
+}
+.budicon-solid-signal-tower:before {
+  content: "\ecd1";
+}
+.budicon-solid-television:before {
+  content: "\ecd2";
+}
+.budicon-solid-usb-cable:before {
+  content: "\ecd3";
+}
+.budicon-solid-webcam:before {
+  content: "\ecd4";
+}
+.budicon-solid-world-connection:before {
+  content: "\ecd5";
+}
+.budicon-solid-world-network:before {
+  content: "\ecd6";
+}
+.budicon-solid-alarm:before {
+  content: "\ecd7";
+}
+.budicon-solid-alert:before {
+  content: "\ecd8";
+}
+.budicon-solid-backward-time:before {
+  content: "\ecd9";
+}
+.budicon-solid-bell:before {
+  content: "\ecda";
+}
+.budicon-solid-calendar-alert:before {
+  content: "\ecdb";
+}
+.budicon-solid-calendar-block:before {
+  content: "\ecdc";
+}
+.budicon-solid-calendar-cross:before {
+  content: "\ecdd";
+}
+.budicon-solid-calendar-dating:before {
+  content: "\ecde";
+}
+.budicon-solid-calendar-download:before {
+  content: "\ecdf";
+}
+.budicon-solid-calendar-favorite:before {
+  content: "\ece0";
+}
+.budicon-solid-calendar-information:before {
+  content: "\ece1";
+}
+.budicon-solid-calendar-lock:before {
+  content: "\ece2";
+}
+.budicon-solid-calendar-minus:before {
+  content: "\ece3";
+}
+.budicon-solid-calendar-plus:before {
+  content: "\ece4";
+}
+.budicon-solid-calendar-tick:before {
+  content: "\ece5";
+}
+.budicon-solid-calendar-upload:before {
+  content: "\ece6";
+}
+.budicon-solid-calendar:before {
+  content: "\ece7";
+}
+.budicon-solid-dashboard2:before {
+  content: "\ece8";
+}
+.budicon-solid-events:before {
+  content: "\ece9";
+}
+.budicon-solid-fast:before {
+  content: "\ecea";
+}
+.budicon-solid-find-event:before {
+  content: "\eceb";
+}
+.budicon-solid-forward-time:before {
+  content: "\ecec";
+}
+.budicon-solid-hourglass:before {
+  content: "\eced";
+}
+.budicon-solid-normal-speed:before {
+  content: "\ecee";
+}
+.budicon-solid-schedule:before {
+  content: "\ecef";
+}
+.budicon-solid-share-calendar:before {
+  content: "\ecf0";
+}
+.budicon-solid-slow:before {
+  content: "\ecf1";
+}
+.budicon-solid-snooze:before {
+  content: "\ecf2";
+}
+.budicon-solid-stopwatch-digital:before {
+  content: "\ecf3";
+}
+.budicon-solid-stopwatch-half:before {
+  content: "\ecf4";
+}
+.budicon-solid-stopwatch:before {
+  content: "\ecf5";
+}
+.budicon-solid-time:before {
+  content: "\ecf6";
+}
+.budicon-solid-timer:before {
+  content: "\ecf7";
+}
+.budicon-solid-tomorrow:before {
+  content: "\ecf8";
+}
+.budicon-solid-vintage-wall-clock:before {
+  content: "\ecf9";
+}
+.budicon-solid-wall-clock:before {
+  content: "\ecfa";
+}
+.budicon-solid-watch:before {
+  content: "\ecfb";
+}
+.budicon-solid-yesterday:before {
+  content: "\ecfc";
+}
+.budicon-solid-blowing-wind:before {
+  content: "\ecfd";
+}
+.budicon-solid-cloud:before {
+  content: "\ecfe";
+}
+.budicon-solid-cloudy-night:before {
+  content: "\ecff";
+}
+.budicon-solid-cloudy-day:before {
+  content: "\ed00";
+}
+.budicon-solid-day:before {
+  content: "\ed01";
+}
+.budicon-solid-decrease-temperature:before {
+  content: "\ed02";
+}
+.budicon-solid-drizzling-day:before {
+  content: "\ed03";
+}
+.budicon-solid-drizzling-night:before {
+  content: "\ed04";
+}
+.budicon-solid-drizzling:before {
+  content: "\ed05";
+}
+.budicon-solid-flake-day:before {
+  content: "\ed06";
+}
+.budicon-solid-flake-night:before {
+  content: "\ed07";
+}
+.budicon-solid-flake:before {
+  content: "\ed08";
+}
+.budicon-solid-gloomy-day:before {
+  content: "\ed09";
+}
+.budicon-solid-gloomy-night:before {
+  content: "\ed0a";
+}
+.budicon-solid-gloomy:before {
+  content: "\ed0b";
+}
+.budicon-solid-half-moon:before {
+  content: "\ed0c";
+}
+.budicon-solid-heavy-rain-day:before {
+  content: "\ed0d";
+}
+.budicon-solid-heavy-rain-night:before {
+  content: "\ed0e";
+}
+.budicon-solid-heavy-rain:before {
+  content: "\ed0f";
+}
+.budicon-solid-high-temperature:before {
+  content: "\ed10";
+}
+.budicon-solid-increase-temperature:before {
+  content: "\ed11";
+}
+.budicon-solid-lighting-day:before {
+  content: "\ed12";
+}
+.budicon-solid-lighting-night:before {
+  content: "\ed13";
+}
+.budicon-solid-lighting:before {
+  content: "\ed14";
+}
+.budicon-solid-low-temperature:before {
+  content: "\ed15";
+}
+.budicon-solid-medium-temperature:before {
+  content: "\ed16";
+}
+.budicon-solid-melting-point:before {
+  content: "\ed17";
+}
+.budicon-solid-moon-reflection:before {
+  content: "\ed18";
+}
+.budicon-solid-moonlight:before {
+  content: "\ed19";
+}
+.budicon-solid-night:before {
+  content: "\ed1a";
+}
+.budicon-solid-pouring-day:before {
+  content: "\ed1b";
+}
+.budicon-solid-pouring-night:before {
+  content: "\ed1c";
+}
+.budicon-solid-pouring:before {
+  content: "\ed1d";
+}
+.budicon-solid-rain:before {
+  content: "\ed1e";
+}
+.budicon-solid-raining-day:before {
+  content: "\ed1f";
+}
+.budicon-solid-raining-night:before {
+  content: "\ed20";
+}
+.budicon-solid-snowflakes:before {
+  content: "\ed21";
+}
+.budicon-solid-snowing-day:before {
+  content: "\ed22";
+}
+.budicon-solid-snowing-night:before {
+  content: "\ed23";
+}
+.budicon-solid-snowing:before {
+  content: "\ed24";
+}
+.budicon-solid-sun-down:before {
+  content: "\ed25";
+}
+.budicon-solid-sun-reflection:before {
+  content: "\ed26";
+}
+.budicon-solid-sun-set:before {
+  content: "\ed27";
+}
+.budicon-solid-sun-up:before {
+  content: "\ed28";
+}
+.budicon-solid-three-quarter-moon:before {
+  content: "\ed29";
+}
+.budicon-solid-typhoon:before {
+  content: "\ed2a";
+}
+.budicon-solid-windometer:before {
+  content: "\ed2b";
+}
+.budicon-solid-windy-day:before {
+  content: "\ed2c";
+}
+.budicon-solid-windy-night:before {
+  content: "\ed2d";
+}
+.budicon-solid-windy:before {
+  content: "\ed2e";
+}
+.budicon-solid-archery:before {
+  content: "\ed2f";
+}
+.budicon-solid-badminton:before {
+  content: "\ed30";
+}
+.budicon-solid-baseball-a:before {
+  content: "\ed31";
+}
+.budicon-solid-baseball:before {
+  content: "\ed32";
+}
+.budicon-solid-basketball-field:before {
+  content: "\ed33";
+}
+.budicon-solid-basketball-ring:before {
+  content: "\ed34";
+}
+.budicon-solid-basketball:before {
+  content: "\ed35";
+}
+.budicon-solid-boxing:before {
+  content: "\ed36";
+}
+.budicon-solid-canoe:before {
+  content: "\ed37";
+}
+.budicon-solid-champion:before {
+  content: "\ed38";
+}
+.budicon-solid-commentator:before {
+  content: "\ed39";
+}
+.budicon-solid-crickets:before {
+  content: "\ed3a";
+}
+.budicon-solid-diving:before {
+  content: "\ed3b";
+}
+.budicon-solid-drinking-bottles:before {
+  content: "\ed3c";
+}
+.budicon-solid-dumbell:before {
+  content: "\ed3d";
+}
+.budicon-solid-energy-drink:before {
+  content: "\ed3e";
+}
+.budicon-solid-energy-pill:before {
+  content: "\ed3f";
+}
+.budicon-solid-fencing:before {
+  content: "\ed40";
+}
+.budicon-solid-football-field:before {
+  content: "\ed41";
+}
+.budicon-solid-football:before {
+  content: "\ed42";
+}
+.budicon-solid-formation:before {
+  content: "\ed43";
+}
+.budicon-solid-golf:before {
+  content: "\ed44";
+}
+.budicon-solid-hockey:before {
+  content: "\ed45";
+}
+.budicon-solid-injury:before {
+  content: "\ed46";
+}
+.budicon-solid-king:before {
+  content: "\ed47";
+}
+.budicon-solid-live-sport:before {
+  content: "\ed48";
+}
+.budicon-solid-medication:before {
+  content: "\ed49";
+}
+.budicon-solid-nfl:before {
+  content: "\ed4a";
+}
+.budicon-solid-olympic:before {
+  content: "\ed4b";
+}
+.budicon-solid-ping-pong:before {
+  content: "\ed4c";
+}
+.budicon-solid-racing-flag:before {
+  content: "\ed4d";
+}
+.budicon-solid-referee:before {
+  content: "\ed4e";
+}
+.budicon-solid-runner-outfit:before {
+  content: "\ed4f";
+}
+.budicon-solid-sneakers:before {
+  content: "\ed50";
+}
+.budicon-solid-soccer-ball:before {
+  content: "\ed51";
+}
+.budicon-solid-speed:before {
+  content: "\ed52";
+}
+.budicon-solid-spikes:before {
+  content: "\ed53";
+}
+.budicon-solid-sport-card:before {
+  content: "\ed54";
+}
+.budicon-solid-sumo:before {
+  content: "\ed55";
+}
+.budicon-solid-team-strategy:before {
+  content: "\ed56";
+}
+.budicon-solid-tennis-ball:before {
+  content: "\ed57";
+}
+.budicon-solid-trophy:before {
+  content: "\ed58";
+}
+.budicon-solid-uniform:before {
+  content: "\ed59";
+}
+.budicon-solid-voley-ball:before {
+  content: "\ed5a";
+}
+.budicon-solid-volley-ball:before {
+  content: "\ed5b";
+}
+.budicon-solid-white-flag:before {
+  content: "\ed5c";
+}
+.budicon-solid-airpods-a:before {
+  content: "\ed5d";
+}
+.budicon-solid-airpods:before {
+  content: "\ed5e";
+}
+.budicon-solid-albums:before {
+  content: "\ed5f";
+}
+.budicon-solid-analog-radio:before {
+  content: "\ed60";
+}
+.budicon-solid-attachment-music:before {
+  content: "\ed61";
+}
+.budicon-solid-backward-sign:before {
+  content: "\ed62";
+}
+.budicon-solid-backward:before {
+  content: "\ed63";
+}
+.budicon-solid-bluetooth-earphone:before {
+  content: "\ed64";
+}
+.budicon-solid-boom-mic-mute:before {
+  content: "\ed65";
+}
+.budicon-solid-boom-mic:before {
+  content: "\ed66";
+}
+.budicon-solid-boombox:before {
+  content: "\ed67";
+}
+.budicon-solid-cassette:before {
+  content: "\ed68";
+}
+.budicon-solid-cd-case:before {
+  content: "\ed69";
+}
+.budicon-solid-cd:before {
+  content: "\ed6a";
+}
+.budicon-solid-earphone:before {
+  content: "\ed6b";
+}
+.budicon-solid-eject:before {
+  content: "\ed6c";
+}
+.budicon-solid-equalizer-a:before {
+  content: "\ed6d";
+}
+.budicon-solid-equalizer:before {
+  content: "\ed6e";
+}
+.budicon-solid-forward-sign:before {
+  content: "\ed6f";
+}
+.budicon-solid-forward:before {
+  content: "\ed70";
+}
+.budicon-solid-headphone-eq:before {
+  content: "\ed71";
+}
+.budicon-solid-headphones-a:before {
+  content: "\ed72";
+}
+.budicon-solid-headphones:before {
+  content: "\ed73";
+}
+.budicon-solid-in-ear-headphones:before {
+  content: "\ed74";
+}
+.budicon-solid-ipod:before {
+  content: "\ed75";
+}
+.budicon-solid-melody:before {
+  content: "\ed76";
+}
+.budicon-solid-microphone-wireless:before {
+  content: "\ed77";
+}
+.budicon-solid-music-album:before {
+  content: "\ed78";
+}
+.budicon-solid-music-file:before {
+  content: "\ed79";
+}
+.budicon-solid-music-setting:before {
+  content: "\ed7a";
+}
+.budicon-solid-next-sign:before {
+  content: "\ed7b";
+}
+.budicon-solid-next-song:before {
+  content: "\ed7c";
+}
+.budicon-solid-pause-sign-a:before {
+  content: "\ed7d";
+}
+.budicon-solid-pause-sign:before {
+  content: "\ed7e";
+}
+.budicon-solid-pause:before {
+  content: "\ed7f";
+}
+.budicon-solid-piano:before {
+  content: "\ed80";
+}
+.budicon-solid-play-loop:before {
+  content: "\ed81";
+}
+.budicon-solid-play-sign:before {
+  content: "\ed82";
+}
+.budicon-solid-play:before {
+  content: "\ed83";
+}
+.budicon-solid-playlist-a:before {
+  content: "\ed84";
+}
+.budicon-solid-playlist-b:before {
+  content: "\ed85";
+}
+.budicon-solid-playlist:before {
+  content: "\ed86";
+}
+.budicon-solid-previous-sign:before {
+  content: "\ed87";
+}
+.budicon-solid-previous-song:before {
+  content: "\ed88";
+}
+.budicon-solid-radio:before {
+  content: "\ed89";
+}
+.budicon-solid-record-sign:before {
+  content: "\ed8a";
+}
+.budicon-solid-repeat-album:before {
+  content: "\ed8b";
+}
+.budicon-solid-repeat-one:before {
+  content: "\ed8c";
+}
+.budicon-solid-repeat:before {
+  content: "\ed8d";
+}
+.budicon-solid-rock:before {
+  content: "\ed8e";
+}
+.budicon-solid-shuffle:before {
+  content: "\ed8f";
+}
+.budicon-solid-song-note-tail:before {
+  content: "\ed90";
+}
+.budicon-solid-song-note:before {
+  content: "\ed91";
+}
+.budicon-solid-song-notes-a:before {
+  content: "\ed92";
+}
+.budicon-solid-song-notes:before {
+  content: "\ed93";
+}
+.budicon-solid-sound:before {
+  content: "\ed94";
+}
+.budicon-solid-speaker:before {
+  content: "\ed95";
+}
+.budicon-solid-stop-sign:before {
+  content: "\ed96";
+}
+.budicon-solid-stop:before {
+  content: "\ed97";
+}
+.budicon-solid-vintage-microphone-big:before {
+  content: "\ed98";
+}
+.budicon-solid-vintage-microphone:before {
+  content: "\ed99";
+}
+.budicon-solid-vol-high:before {
+  content: "\ed9a";
+}
+.budicon-solid-vol-low:before {
+  content: "\ed9b";
+}
+.budicon-solid-vol-med:before {
+  content: "\ed9c";
+}
+.budicon-solid-vol-mute:before {
+  content: "\ed9d";
+}
+.budicon-solid-volume-low:before {
+  content: "\ed9e";
+}
+.budicon-solid-volume-mute-a:before {
+  content: "\ed9f";
+}
+.budicon-solid-volume-mute:before {
+  content: "\eda0";
+}
+.budicon-solid-volume-strong:before {
+  content: "\eda1";
+}
+.budicon-solid-vynil:before {
+  content: "\eda2";
+}
+.budicon-solid-woofer:before {
+  content: "\eda3";
+}
+.budicon-solid-search-task:before {
+  content: "\eda4";
+}
+.budicon-solid-task-alert:before {
+  content: "\eda5";
+}
+.budicon-solid-task-block:before {
+  content: "\eda6";
+}
+.budicon-solid-task-cross:before {
+  content: "\eda7";
+}
+.budicon-solid-task-download:before {
+  content: "\eda8";
+}
+.budicon-solid-task-favorite:before {
+  content: "\eda9";
+}
+.budicon-solid-task-information:before {
+  content: "\edaa";
+}
+.budicon-solid-task-list:before {
+  content: "\edab";
+}
+.budicon-solid-task-lock:before {
+  content: "\edac";
+}
+.budicon-solid-task-love:before {
+  content: "\edad";
+}
+.budicon-solid-task-minus:before {
+  content: "\edae";
+}
+.budicon-solid-task-plus:before {
+  content: "\edaf";
+}
+.budicon-solid-task-question:before {
+  content: "\edb0";
+}
+.budicon-solid-task-scheduled:before {
+  content: "\edb1";
+}
+.budicon-solid-task-shared:before {
+  content: "\edb2";
+}
+.budicon-solid-task-tick:before {
+  content: "\edb3";
+}
+.budicon-solid-task-upload:before {
+  content: "\edb4";
+}
+.budicon-solid-task:before {
+  content: "\edb5";
+}
+.budicon-solid-announcement:before {
+  content: "\edb6";
+}
+.budicon-solid-at-symbol:before {
+  content: "\edb7";
+}
+.budicon-solid-broadcast:before {
+  content: "\edb8";
+}
+.budicon-solid-call:before {
+  content: "\edb9";
+}
+.budicon-solid-chat-alert:before {
+  content: "\edba";
+}
+.budicon-solid-chat-block:before {
+  content: "\edbb";
+}
+.budicon-solid-chat-cross:before {
+  content: "\edbc";
+}
+.budicon-solid-chat-download:before {
+  content: "\edbd";
+}
+.budicon-solid-chat-favorite:before {
+  content: "\edbe";
+}
+.budicon-solid-chat-information:before {
+  content: "\edbf";
+}
+.budicon-solid-chat-lock:before {
+  content: "\edc0";
+}
+.budicon-solid-chat-love:before {
+  content: "\edc1";
+}
+.budicon-solid-chat-minus:before {
+  content: "\edc2";
+}
+.budicon-solid-chat-plus:before {
+  content: "\edc3";
+}
+.budicon-solid-chat-question:before {
+  content: "\edc4";
+}
+.budicon-solid-chat-scheduled:before {
+  content: "\edc5";
+}
+.budicon-solid-chat-thread:before {
+  content: "\edc6";
+}
+.budicon-solid-chat-tick:before {
+  content: "\edc7";
+}
+.budicon-solid-chat-upload:before {
+  content: "\edc8";
+}
+.budicon-solid-chat:before {
+  content: "\edc9";
+}
+.budicon-solid-connection:before {
+  content: "\edca";
+}
+.budicon-solid-conversation:before {
+  content: "\edcb";
+}
+.budicon-solid-dropped-cap:before {
+  content: "\edcc";
+}
+.budicon-solid-email-alert:before {
+  content: "\edcd";
+}
+.budicon-solid-email-block:before {
+  content: "\edce";
+}
+.budicon-solid-email-cross:before {
+  content: "\edcf";
+}
+.budicon-solid-email-download:before {
+  content: "\edd0";
+}
+.budicon-solid-email-favorite:before {
+  content: "\edd1";
+}
+.budicon-solid-email-forward:before {
+  content: "\edd2";
+}
+.budicon-solid-email-front-envelope:before {
+  content: "\edd3";
+}
+.budicon-solid-email-information:before {
+  content: "\edd4";
+}
+.budicon-solid-email-lock:before {
+  content: "\edd5";
+}
+.budicon-solid-email-love:before {
+  content: "\edd6";
+}
+.budicon-solid-email-minus:before {
+  content: "\edd7";
+}
+.budicon-solid-email-plus:before {
+  content: "\edd8";
+}
+.budicon-solid-email-tick:before {
+  content: "\edd9";
+}
+.budicon-solid-email-undo:before {
+  content: "\edda";
+}
+.budicon-solid-email-upload:before {
+  content: "\eddb";
+}
+.budicon-solid-email:before {
+  content: "\eddc";
+}
+.budicon-solid-happy-chat:before {
+  content: "\eddd";
+}
+.budicon-solid-happy-sticker:before {
+  content: "\edde";
+}
+.budicon-solid-incoming-call:before {
+  content: "\eddf";
+}
+.budicon-solid-international-call:before {
+  content: "\ede0";
+}
+.budicon-solid-mailbox:before {
+  content: "\ede1";
+}
+.budicon-solid-mobile-chat:before {
+  content: "\ede2";
+}
+.budicon-solid-mobile-email:before {
+  content: "\ede3";
+}
+.budicon-solid-numpad:before {
+  content: "\ede4";
+}
+.budicon-solid-outgoing-call:before {
+  content: "\ede5";
+}
+.budicon-solid-phone-block:before {
+  content: "\ede6";
+}
+.budicon-solid-phone-connection:before {
+  content: "\ede7";
+}
+.budicon-solid-phone-directed:before {
+  content: "\ede8";
+}
+.budicon-solid-phone-forward:before {
+  content: "\ede9";
+}
+.budicon-solid-phone-hold:before {
+  content: "\edea";
+}
+.budicon-solid-phone-lock:before {
+  content: "\edeb";
+}
+.budicon-solid-phone-love:before {
+  content: "\edec";
+}
+.budicon-solid-phone-voicemail:before {
+  content: "\eded";
+}
+.budicon-solid-phone:before {
+  content: "\edee";
+}
+.budicon-solid-quill-pen:before {
+  content: "\edef";
+}
+.budicon-solid-sad-chat:before {
+  content: "\edf0";
+}
+.budicon-solid-sad-sticker:before {
+  content: "\edf1";
+}
+.budicon-solid-search-chat:before {
+  content: "\edf2";
+}
+.budicon-solid-search-email:before {
+  content: "\edf3";
+}
+.budicon-solid-sending-message:before {
+  content: "\edf4";
+}
+.budicon-solid-shared-chat:before {
+  content: "\edf5";
+}
+.budicon-solid-shared-email:before {
+  content: "\edf6";
+}
+.budicon-solid-signal-source:before {
+  content: "\edf7";
+}
+.budicon-solid-signal:before {
+  content: "\edf8";
+}
+.budicon-solid-sms:before {
+  content: "\edf9";
+}
+.budicon-solid-spam:before {
+  content: "\edfa";
+}
+.budicon-solid-stickers:before {
+  content: "\edfb";
+}
+.budicon-solid-typing-chat:before {
+  content: "\edfc";
+}
+.budicon-solid-video-chat:before {
+  content: "\edfd";
+}
+.budicon-solid-voice-mail:before {
+  content: "\edfe";
+}
+.budicon-solid-web-chat:before {
+  content: "\edff";
+}
+.budicon-solid-web-sms:before {
+  content: "\ee00";
+}
+.budicon-solid-air-conditioner:before {
+  content: "\ee01";
+}
+.budicon-solid-armchair:before {
+  content: "\ee02";
+}
+.budicon-solid-bathup:before {
+  content: "\ee03";
+}
+.budicon-solid-bed-lamp:before {
+  content: "\ee04";
+}
+.budicon-solid-bed-side-a:before {
+  content: "\ee05";
+}
+.budicon-solid-bed-side-table:before {
+  content: "\ee06";
+}
+.budicon-solid-bed-side:before {
+  content: "\ee07";
+}
+.budicon-solid-bed:before {
+  content: "\ee08";
+}
+.budicon-solid-big-dresser:before {
+  content: "\ee09";
+}
+.budicon-solid-book-cabinet:before {
+  content: "\ee0a";
+}
+.budicon-solid-cabinet:before {
+  content: "\ee0b";
+}
+.budicon-solid-candle:before {
+  content: "\ee0c";
+}
+.budicon-solid-chest:before {
+  content: "\ee0d";
+}
+.budicon-solid-closet:before {
+  content: "\ee0e";
+}
+.budicon-solid-dining-chair:before {
+  content: "\ee0f";
+}
+.budicon-solid-door:before {
+  content: "\ee10";
+}
+.budicon-solid-dresser-table:before {
+  content: "\ee11";
+}
+.budicon-solid-dresser:before {
+  content: "\ee12";
+}
+.budicon-solid-dryer:before {
+  content: "\ee13";
+}
+.budicon-solid-fireplace:before {
+  content: "\ee14";
+}
+.budicon-solid-flower:before {
+  content: "\ee15";
+}
+.budicon-solid-futon:before {
+  content: "\ee16";
+}
+.budicon-solid-hanging-lamp:before {
+  content: "\ee17";
+}
+.budicon-solid-home-alert:before {
+  content: "\ee18";
+}
+.budicon-solid-home-safe:before {
+  content: "\ee19";
+}
+.budicon-solid-hutch:before {
+  content: "\ee1a";
+}
+.budicon-solid-indoor-plant:before {
+  content: "\ee1b";
+}
+.budicon-solid-indoor-seat:before {
+  content: "\ee1c";
+}
+.budicon-solid-lamp:before {
+  content: "\ee1d";
+}
+.budicon-solid-lightbulb:before {
+  content: "\ee1e";
+}
+.budicon-solid-long-desk:before {
+  content: "\ee1f";
+}
+.budicon-solid-low-cabinet:before {
+  content: "\ee20";
+}
+.budicon-solid-open-door:before {
+  content: "\ee21";
+}
+.budicon-solid-outdoor-seat:before {
+  content: "\ee22";
+}
+.budicon-solid-plant:before {
+  content: "\ee23";
+}
+.budicon-solid-rocking-chair:before {
+  content: "\ee24";
+}
+.budicon-solid-round-armchair:before {
+  content: "\ee25";
+}
+.budicon-solid-round-chair:before {
+  content: "\ee26";
+}
+.budicon-solid-showcase-desk:before {
+  content: "\ee27";
+}
+.budicon-solid-shower:before {
+  content: "\ee28";
+}
+.budicon-solid-sink:before {
+  content: "\ee29";
+}
+.budicon-solid-smart-lamp:before {
+  content: "\ee2a";
+}
+.budicon-solid-sofa:before {
+  content: "\ee2b";
+}
+.budicon-solid-standing-lamp:before {
+  content: "\ee2c";
+}
+.budicon-solid-storage-desk:before {
+  content: "\ee2d";
+}
+.budicon-solid-sunflower:before {
+  content: "\ee2e";
+}
+.budicon-solid-table-lamp:before {
+  content: "\ee2f";
+}
+.budicon-solid-tv-desk:before {
+  content: "\ee30";
+}
+.budicon-solid-vintage-bed-lamp:before {
+  content: "\ee31";
+}
+.budicon-solid-vintage-chest:before {
+  content: "\ee32";
+}
+.budicon-solid-vintage-futon:before {
+  content: "\ee33";
+}
+.budicon-solid-vintage-sofa:before {
+  content: "\ee34";
+}
+.budicon-solid-wardrobe:before {
+  content: "\ee35";
+}
+.budicon-solid-washer:before {
+  content: "\ee36";
+}
+.budicon-solid-windsor-chair:before {
+  content: "\ee37";
+}
+.budicon-solid-wingback-chair:before {
+  content: "\ee38";
+}
+.budicon-solid-work-desk:before {
+  content: "\ee39";
+}
+.budicon-solid-apartment-a:before {
+  content: "\ee3a";
+}
+.budicon-solid-apartment:before {
+  content: "\ee3b";
+}
+.budicon-solid-bank:before {
+  content: "\ee3c";
+}
+.budicon-solid-barn:before {
+  content: "\ee3d";
+}
+.budicon-solid-business-area:before {
+  content: "\ee3e";
+}
+.budicon-solid-church:before {
+  content: "\ee3f";
+}
+.budicon-solid-city:before {
+  content: "\ee40";
+}
+.budicon-solid-garage:before {
+  content: "\ee41";
+}
+.budicon-solid-golden-bridge:before {
+  content: "\ee42";
+}
+.budicon-solid-government:before {
+  content: "\ee43";
+}
+.budicon-solid-high-building:before {
+  content: "\ee44";
+}
+.budicon-solid-hotel-tower:before {
+  content: "\ee45";
+}
+.budicon-solid-house-a:before {
+  content: "\ee46";
+}
+.budicon-solid-house:before {
+  content: "\ee47";
+}
+.budicon-solid-lighthouse:before {
+  content: "\ee48";
+}
+.budicon-solid-log-house:before {
+  content: "\ee49";
+}
+.budicon-solid-mall:before {
+  content: "\ee4a";
+}
+.budicon-solid-mansion:before {
+  content: "\ee4b";
+}
+.budicon-solid-modern-office:before {
+  content: "\ee4c";
+}
+.budicon-solid-school:before {
+  content: "\ee4d";
+}
+.budicon-solid-ambulance:before {
+  content: "\ee4e";
+}
+.budicon-solid-baby:before {
+  content: "\ee4f";
+}
+.budicon-solid-bandage:before {
+  content: "\ee50";
+}
+.budicon-solid-blood-donation:before {
+  content: "\ee51";
+}
+.budicon-solid-blood-transfusion:before {
+  content: "\ee52";
+}
+.budicon-solid-blood-type:before {
+  content: "\ee53";
+}
+.budicon-solid-blood:before {
+  content: "\ee54";
+}
+.budicon-solid-body-weigher:before {
+  content: "\ee55";
+}
+.budicon-solid-cardio-record:before {
+  content: "\ee56";
+}
+.budicon-solid-dialysis:before {
+  content: "\ee57";
+}
+.budicon-solid-dna:before {
+  content: "\ee58";
+}
+.budicon-solid-eye-chart:before {
+  content: "\ee59";
+}
+.budicon-solid-eye-sight:before {
+  content: "\ee5a";
+}
+.budicon-solid-handicap:before {
+  content: "\ee5b";
+}
+.budicon-solid-hearing:before {
+  content: "\ee5c";
+}
+.budicon-solid-heart-monitor:before {
+  content: "\ee5d";
+}
+.budicon-solid-heart-rate:before {
+  content: "\ee5e";
+}
+.budicon-solid-hiv-ribbon:before {
+  content: "\ee5f";
+}
+.budicon-solid-hospital-sign:before {
+  content: "\ee60";
+}
+.budicon-solid-hospital:before {
+  content: "\ee61";
+}
+.budicon-solid-infusion:before {
+  content: "\ee62";
+}
+.budicon-solid-injection:before {
+  content: "\ee63";
+}
+.budicon-solid-lab-liquid:before {
+  content: "\ee64";
+}
+.budicon-solid-lab-test:before {
+  content: "\ee65";
+}
+.budicon-solid-lab:before {
+  content: "\ee66";
+}
+.budicon-solid-medical-assistance:before {
+  content: "\ee67";
+}
+.budicon-solid-medical-bag:before {
+  content: "\ee68";
+}
+.budicon-solid-medical-case:before {
+  content: "\ee69";
+}
+.budicon-solid-medical-liquid:before {
+  content: "\ee6a";
+}
+.budicon-solid-medical-note:before {
+  content: "\ee6b";
+}
+.budicon-solid-medical-record:before {
+  content: "\ee6c";
+}
+.budicon-solid-medicine:before {
+  content: "\ee6d";
+}
+.budicon-solid-online-medical:before {
+  content: "\ee6e";
+}
+.budicon-solid-pills:before {
+  content: "\ee6f";
+}
+.budicon-solid-potions:before {
+  content: "\ee70";
+}
+.budicon-solid-scale:before {
+  content: "\ee71";
+}
+.budicon-solid-sperm:before {
+  content: "\ee72";
+}
+.budicon-solid-sthethoscope:before {
+  content: "\ee73";
+}
+.budicon-solid-themometer:before {
+  content: "\ee74";
+}
+.budicon-solid-x-ray:before {
+  content: "\ee75";
+}

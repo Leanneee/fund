@@ -1,0 +1,904 @@
+.entry-title {display: none!important}
+.sharedaddy {display: none!important}
+.mobile-carousel {display: none!important}
+.mobile-carousel-cx {display: none!important}
+.mobile-intro {display: none!important}
+.main-navigation .menu-item-has-children>a:after, .main-navigation a:focus, .main-navigation a:hover{color: #45b220!important;}
+.img-link a{box-shadow: none;}
+.software-row a{box-shadow: none;}
+html, body {max-width: 100%;overflow-x: hidden;}
+#colophon {display: none!important}
+.menu-primary {z-index: 10;}
+.sub-menu {box-shadow: #e1e2e1 1px 2px 3px;}
+.main-navigation ul ul li {border-bottom: none}
+/*.menu-item-700 a:before {
+   font-family: "FontAwesome";
+   content: "\f095";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight: 900;
+}*/
+
+/* Header */
+
+
+/*Hidden*/
+.how-nows-work {
+    visibility: hidden;
+}
+
+.site-branding {
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 1.5em;
+	padding-right: 1.5em;
+	background: url("https://www.refundo.com/ap/images/logo-green.png") no-repeat top left;
+}
+.home .site{
+	width: 100%;
+	height: 50%;
+    background: #fff;
+}
+.page .site{
+	width: 100%;
+	height: 50%;
+    background: #fff!important;
+}
+p {
+    font-family: "Source Sans Pro", sans-serif!important;
+    font-weight: 300!important;
+    font-size: 18px!important;
+}
+
+.header-intro {
+	padding: 300px 0px 75px 0px
+}
+.header-p p {
+	font-size: 28px !important;
+}
+.ap-header {
+	padding-top: 150px;
+}
+.ap-header p {
+	font-size: 28px !important;
+}
+.business-loans-header {
+    padding-top: 150px;
+}
+.business-loans-header p {
+	font-size: 28px !important;
+}
+.software-inner-column {
+    margin-top: -100px;
+}
+.payments-header p {
+    font-size: 28px !important;
+}
+.custom-logo {
+    max-width: 160px;
+}
+.software-carousel h4{
+    color: #5472D2;
+    font-size: 18px;
+    font-weight: 100 !important;
+}
+.how-it-works-grid h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100 !important;
+}
+.how-it-works-grid p {
+    color: #fff;
+}
+.main-navigation a {
+    color: #45b220!important;
+    font-size: .9rem!important;
+}
+.main-navigation a:hover {
+    color: #21ce99!important;
+}
+.hentry {
+    padding-top: 0!important;
+}
+.site-header {
+    max-width: 960px;
+    margin: 0 auto;
+    border-bottom: 0px solid #f3f3f3;
+    background: none!important;
+}
+.software-small p {
+    font-size: 11px!important;
+    letter-spacing: 3px;
+    font-family: sans-serif!important;
+    font-weight: 400!important;
+}
+.technology-section h2, .technology-section p {
+    color: #fff;
+}
+.intro p a {
+    color: #45ab4a;
+    text-decoration: none!important;
+    box-shadow: none;
+}
+.intro p a:hover {
+    color: #2c313f;
+    text-decoration: none!important;
+}
+.dashboard-header p{
+    font-size:24px;
+}
+.widget-footer {
+    background: url("../2017/10/pattern-black.png");
+    background-color: #2c313f;
+}
+.widget-footer a, .widget-footer ul, .widget-footer li {
+    color: #fff;
+    border: 0px!important;
+    line-height:5px;
+}
+.widget-footer h2 {
+    color: #7a7c84;
+}
+.site .widget_wpcom_social_media_icons_widget a{
+    color: #fff!important;
+}
+.site .widget_wpcom_social_media_icons_widget a:hover{
+    color: #45ab4a!important;
+    background: none!important;
+}
+.site .widget_wpcom_social_media_icons_widget a:focus{
+    color: #45ab4a!important;
+    background: none!important;
+}
+.ap-pros h2{
+    color: #fff!important;
+}
+.ap-pros p{
+    color: #fff!important;
+}
+.ap-pros {
+    border-radius: 5px;
+}
+.audits-intro p a {
+    color: #45ab4a;
+    text-decoration: none!important;
+    box-shadow: none;
+}
+.audits-intro p a:hover {
+    color: #2c313f;
+    text-decoration: none!important;
+}
+.business-loans-green-row h5 {
+    color: #fff;
+}
+.business-loans-green-row p {
+    color: #fff;
+}
+.business-loans-white-row h5 {
+    line-height: 28px;
+    padding: 10px 0;
+    margin: 0;
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:18px;
+    font-weight:300;
+    color: #56c271;
+}
+.business-loans-white-row ul li {
+    line-height: 23px;
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+    font-family:"Source Sans Pro", sans-serif;
+    font-size:18px;
+    font-weight:300;
+}
+.business-loans-white-row ul li:before {
+    float: left;
+    margin-left: -1.5em;
+    color: #56C271;
+    content: '\f054';
+    font-family: FontAwesome;
+    -webkit-text-stroke: 1.5px #f2f2f2;
+}  
+#sb_instagram .sbi_photo {
+    border-radius: 15px;
+    box-shadow: none;
+}
+.last-row {
+    padding-bottom: 50px;
+    margin-bottom: -92px;
+    color: #fff;
+    background: #8fd2b0; /* Old browsers */
+    background: -moz-linear-gradient(0deg, #8fd2b0 0%, #9bbbf3 100%, #00ce9b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(0deg, #8fd2b0 0%,#9bbbf3 100%,#00ce9b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(90deg, #16b762 0%,#8fd2b0 90%,#9bbbf3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fd2b0', endColorstr='#9bbbf3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.last-row h2{
+    color: #fff;
+}
+
+.last-row-other {
+    padding-bottom: 50px;
+}
+
+/* Contact Page */
+.contact-form-new .row {
+    width: 100%;
+    min-height: 61px;
+    margin: 0 0 10px;
+}
+.contact-form-new .row:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.contact-form-new .row .input,
+.enrollment-form .row .input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    height: 61px;
+    padding: 15px 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #999;
+    background-color: #fff;
+}
+
+.contact-form-new .row .input-small,
+.enrollment-form .row .input-small {
+    width: 48.8%!important;
+    float: left;
+}
+.contact-form-new .row .input-small:first-child { margin: 0 2.4% 0 0; }
+.contact-form-new .row textarea {
+    width: 100% !important;
+    border: 1px solid #dbdbdb;
+    height: 141px !important;
+    padding: 5px 20px;
+    line-height: 31px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    resize: none;
+    color: #999;
+    background-color: #fff;
+}
+.contact-form-new input[type=submit] {
+    width: 139px;
+    height: 57px;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    border: 0;
+    background: #45b220;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 7px 0 0;
+}
+.contact-form-new input[type=submit]:hover,.enrollment-form input[type=submit]:hover, .social-networks li:hover, .widget-box .form input[type="submit"]:hover, .logoes li a:hover, .app-links li a:hover, .dash-app .view li a:hover{
+    opacity: 0.7;
+}
+.contact-form-new select {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    height: 61px;
+    padding: 15px 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #999;
+    background-color: #fff;
+}
+.contact-form-new .row .input-small:first-child:focus { margin: 0 2.4% 0 0; }
+.contact-form-new .row textarea:focus {
+    outline-color: #16b7a0;
+    border-radius: 4px;
+}
+.contact-form-new .row .input:focus,
+.enrollment-form .row .input:focus {
+    outline-color: #16b7a0;
+    border-radius: 4px;
+}
+
+/*HERO Page*/
+.hero-use-cases {
+    margin-left: -15px !important;
+}
+.excited-ero {
+    padding-right: 15px;
+}
+
+/*Connect Page*/
+.connect-header {
+	padding-top: 150px;
+}
+.connect-header p {
+	font-size: 28px !important;
+}
+.connect-convenience {
+    padding-top: 150px;
+}
+.connect-easy {
+    padding-top: 100px;
+}
+.connect-customize {
+    padding-top: 150px;
+}
+.connect-directly {
+    padding-top: initial !important;
+}
+.connect-grid img {
+    max-width: 200%!important;
+    margin-bottom: -100px;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.connect-laptop img {
+    max-width: 200%!important;
+    margin-bottom: -100px;
+    margin-top: -100px;
+    margin-left: 25px;
+}
+.connect-demo .vc_column-inner {
+    padding-top: 0px!important;
+}
+
+
+/* Refund Transfer Page*/
+.rt-header p {
+	font-size: 28px !important;
+}
+.how-rts-work-1 .vc_message_box-icon .fa-info-circle:before {
+    content: "1";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-2 .vc_message_box-icon .fa-info-circle:before {
+    content: "2";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-3 .vc_message_box-icon .fa-info-circle:before {
+    content: "3";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-4 .vc_message_box-icon .fa-info-circle:before {
+    content: "4";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-5 .vc_message_box-icon .fa-info-circle:before {
+    content: "5";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-6 .vc_message_box-icon .fa-info-circle:before {
+    content: "6";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-7 .vc_message_box-icon .fa-info-circle:before {
+    content: "7";
+    font-family: "Gotham";
+    font-weight: 500;
+}
+.how-rts-work-7 {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+/*NOW Page*/
+.now-header {
+	padding-top: 150px;
+}
+.announcement {
+    font-size: 18px;
+    background-color: #f0f8ff;
+    border-radius:  25px;
+    padding: 4px 10px 8px 10px;
+}
+.new-pill {
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    background: #24b47e;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color: #fff;
+    margin-right: 7px;
+}
+.compare-table{
+    width: 100%;
+    color: #515359;
+    margin-bottom: 35px;
+}
+.compare-table .col{
+    width: 300px;
+}
+.compare-table .c1{
+    width: 300px;
+}
+.compare-table .c2{
+    width: 300px;
+}
+.compare-table .has-bg{
+    background: #fff;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    color: #45ac4b;
+}
+.compare-table tr{
+    border-bottom: 1px solid #e6e6e6;
+}
+.compare-table thead tr{
+    border-top: 1px solid #e6e6e6;
+}
+.compare-table th{
+    color: #2e3033;
+    text-align: left;
+    text-transform: uppercase;
+    font: 20px/25px;
+    padding: 19px 26px 25px;
+}
+.compare-table td{
+    padding: 23px 26px;
+    font-size: 15px!important;
+}
+.compare-table td:first-child{
+    text-align: right;
+    padding: 23px 60px;
+    font-size: 16px;
+}
+.now-header p {
+	font-size: 28px !important;
+}
+.now-disclaimer p{
+    font-size: 12px!important;
+}
+
+
+/* Pricing Page */
+.pricing-header {
+    padding-top:150px;
+}
+.pricing-header:before {
+    content: "";
+    top: 806px;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 1473px;
+    background: #f6f9fc;
+    transform: matrix(1, 0.08, 0, 1, 0, 0);
+}
+.pricing-header p {
+	font-size: 28px !important;
+}
+.pricing-row {
+    margin-top: 25px;
+}
+
+.pricing-icons {
+    max-width: 40%;
+    display: inline-block;
+    border: none;
+}
+.pricing-icons p{
+    color: #7a7c84;
+}
+.pricing-icons p{
+    font-size: 18px;
+}
+.pricing-icons i{
+    padding-bottom: 100px;
+}
+.pricing-icons-column {
+    border-left: #e6e6e6;
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+.pricing-product {
+    font-size: 11px!important;
+    letter-spacing: 3px;
+    font-family: sans-serif!important;
+    font-weight: 400!important;
+    text-transform: uppercase;
+}
+
+.pricing-amount {
+    color: #45b220;
+    font-size: 54px;
+}
+.pricing-cents {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin-left: 5px;
+    color: #45b220;
+    font-weight: 400;
+}
+.pricing-description {
+    font-size: 16px;
+    color:#b3b3b3;
+}
+
+/* About Us Page */
+.about-header {
+    padding-top: 150px;
+}
+
+/*Payments Page*/
+.payments-header {
+	padding-top: 150px;
+}
+.payments-header p {
+	font-size: 28px !important;
+}
+
+
+/*Buttons*/
+.vc_btn3.vc_btn3-color-default, .vc_btn3.vc_btn3-color-default.vc_btn3-style-flat {
+    margin-right: 5px;
+    color: #45ab4a;
+    box-shadow: 1px 1px 3px #45ab4a;
+}
+.vc_btn3.vc_btn3-color-default.vc_btn3-style-outline {
+    margin-right: 5px;
+    box-shadow: none;
+}
+
+
+/*Low Resolution Screen*/
+@media screen and (max-width: 1024px){
+
+/*Low Res Audit Pros Page */
+.ap-header {
+	padding-top: 75px;
+}
+/*Low Res Business Loans Page */
+.business-loans-header {
+    padding-top: 75px;
+}
+/*Low Res About Us Page */
+.about-header {
+    padding-top: 75px;
+}
+}
+
+
+/*Tablet Screen*/
+@media screen and (max-width: 896px){
+
+#nav_menu-5, #nav_menu-6, #nav_menu-7 {
+    margin-top: 50px;
+    display: inline-grid;
+    width: 33%;
+}
+.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:hover {
+    margin-top: -9px;
+}
+.sub-menu {box-shadow: none;}
+.custom-logo {
+    max-width: 160px;
+}
+.menu-toggle {
+	background-color: #45b220;
+}
+.dropdown-toggle {
+	background-color: #45b220;
+}
+.menu-toggle:focus, .menu-toggle:hover{
+	background-color: #1f7900;
+}
+.dropdown-toggle:focus, .dropdown-toggle:hover {
+	background-color: #1f7900;
+}
+.carousel {display: none !important}
+.mobile-carousel {display: initial !important}
+.mobile-carousel-cx {display: initial !important}
+.mobile-carousel-cx .vc_carousel-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.software-works h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.software-works p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.software-small p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header-intro {
+    text-align: left;
+}
+
+
+/*Tablet Connect Page*/
+.connect-header {
+	padding-top: 25px;
+}
+.connect-convenience {
+    padding-top: 75px !important;
+}
+.connect-customize-row {
+    padding-top: 50px;
+}
+.connect-customize {
+    padding-top: 75px !important;
+}
+.connect-directly {
+    margin-right: -35px;
+}
+.connect-grid img {
+    max-width: 200%!important;
+    margin-bottom: -100px;
+    margin-top: -100px;
+    margin-left: initial;
+}
+
+
+/*Tablet Audit Pros Page */
+.ap-header {
+	padding-top: 25px;
+}
+/*Table Refund Transfer Page */
+.how-rts-work-7 {
+    margin-left: initial;
+    margin-right: initial;
+}
+/*Tablet Pricing Page */
+.pricing-header {
+    padding-top:25px;
+}
+.pricing-icons {
+    max-width: 100%;
+}
+.pricing-icons i {
+    padding-bottom: 0px;
+}
+
+/* Tablet Business Loans Page */
+.business-loans-header {
+    padding-top: 25px;
+}
+
+/* Tablet About Us Page */
+.about-header {
+    padding-top: 25px;
+}
+
+
+
+}
+
+
+
+
+
+/*iPhone X Screen Landscape*/
+@media screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape){ 
+    #nav_menu-5, #nav_menu-6, #nav_menu-7 {
+    margin-top: 50px;
+    display: inline-grid;
+    width: 33%;
+}
+}
+
+
+
+
+
+
+/*Mobile Screen*/
+@media screen and (max-width: 767px) {
+.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:hover {
+margin-top: -3px;
+}
+.sub-menu {box-shadow: none;}
+.header-intro {
+	padding: 150px 0px 50px 0px
+}
+.custom-logo {
+    max-width: 160px;
+}
+.intro-tiles {display: none !important}
+.carousel {display: none !important}
+.mobile-carousel {display: initial !important}
+.mobile-carousel-cx {display: initial !important}
+.mobile-intro {display: initial !important}
+.desktop-intro {display: none !important}
+.widget_wpcom_social_media_icons_widget {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#nav_menu-5 {
+    margin-top: 100px;
+    width: 100%;
+}
+#nav_menu-6, #nav_menu-7 {
+    margin-top: 10px;
+    width: 100%;
+}
+.software-small p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.software-row {
+    width: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 25px;
+}
+.header-intro {
+    text-align: left;
+}
+.responsive-image {
+  width: 110%!important;
+  max-width: 110%!important;
+}
+.tool-support-animation-container {
+  position: relative;
+  margin: 0 auto;
+  width: 291px;
+  height: 247px;
+  padding-top: 25px;
+}
+.now-img img{
+    margin-top:25px;
+}
+
+
+/*Mobbile HERO Page*/
+.how-much-column {
+    margin-top: -30px;
+}
+.hero-use-cases {
+    margin-left: 0px!important;
+    margin-top: -35px!important;
+}
+.excited-ero {
+    padding-right: initial;
+}
+
+/*Mobile Connect Page*/
+
+.connect-convenience {
+    padding-top: initial !important;
+}
+.connect-easy {
+    padding-top: 650px!important;
+}
+.connect-customize {
+    padding-top: initial !important;
+}
+.connect-customize h2 {
+    margin-right: -5px;
+}
+.connect-directly {
+    padding-top: 475px!important;
+}
+.connect-grid img {
+    max-width: 200%!important;
+    margin-bottom: initial;
+    margin-top: -850px;
+    margin-left: initial;
+}
+.connect-laptop img {
+    margin-bottom: initial;
+    margin-top: -800px;
+    margin-left: initial;
+}
+
+#button {
+	margin: 0.63em auto 0;
+	background-color: #c5c3ba;
+	width: 1.071em;
+	height: 1.071em;
+	border-radius: 50%;
+	padding: 0.567em;
+	cursor: hand;
+}
+
+#button:hover {
+	cursor: hand;
+}
+
+#button-square {
+    margin: -0.55em auto 0 -0.525em;
+    width: 1.08em;
+    height: 1.08em;
+    border: 0.075em solid #e9eae4;
+    border-radius: 1.252em;
+    opacity: .35;
+}
+.header-p p {
+	font-size: 24px !important;
+}
+.header-p h1 {
+	margin-right: 50px;
+}
+.software-inner-column-m {
+    margin-top: -100px;
+}
+.software-inner-column-top {
+    margin-top: -75px;
+}
+/* Mobile Business Loans Page*/
+.how-business-loans-work h3{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/* Mobile NOW Page */
+.announcement {
+    font-size: 14px;
+}
+.how-nows-work h3{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.compare-table {
+    width: 120%;
+    margin-left: -25px;
+}
+.compare-table col{
+    width: 33%;
+}
+.compare-table .c1{
+    width: 33%;
+}
+.compare-table .c2{
+    width: 33%;
+}
+.compare-table td:first-child {
+    text-align: left;
+    padding: 23px 20px;
+}
+/* Mobile Pricing Page */
+.pricing-header {
+    padding-top:50px;
+}
+.pricing-icons {
+    max-width: 100%;
+    display: inline-block;
+    border: none;
+}
+.pricing-icons i {
+    padding-bottom: 100px;
+}
+.pricing-icons-column {
+    border-left-style: none;
+}
+.vc_message_box {
+    padding: 1em 1em 1em 1em;
+}
+.vc_color-white.vc_message_box {
+    margin-top: -40px;
+}
+.vc_color-white.vc_message_box .vc_message_box-icon {
+    width: 100%;
+    margin-top: 25px;
+}
+.pricing-icons p{
+    padding-top: 75px;
+    text-align: center;
+}
+
+/*Mobile About Us Page*/
+.about-header {
+    padding-top: 50px;
+}
+}
